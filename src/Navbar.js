@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.jpg'
-import DropButton from './DropButton.js'
+import ProductsBtn from './ProductsBtn.js'
+import ContactBtn from './ContactBtn.js'
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import { Grid } from '@material-ui/core';
@@ -17,12 +18,15 @@ const Navbar = props => {
                     <Grid container
                         justify="space-between"
                     >
-                    <Grid item>
-                        <img src={logo} width="210" />
-                    </Grid>
-                    <Grid item>
-                        <DropButton/>
-                    </Grid>
+                        <Grid item>
+                            <img src={logo} width="210" />
+                        </Grid>
+                        <Grid item>
+                            <ProductsBtn/>
+                        </Grid>
+                        <Grid item>
+                            <ContactBtn/>
+                        </Grid>
                     </Grid>
                 </Toolbar>
             </AppBar>

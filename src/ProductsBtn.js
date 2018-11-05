@@ -21,6 +21,7 @@ class DropButton extends React.Component {
         return (
             <div>
                 <Button
+                    variant="outlined"
                     aria-owns={anchorEl ? 'drop-button' : undefined}
                     aria-haspopup='true'
                     onClick={this.handleClick}
