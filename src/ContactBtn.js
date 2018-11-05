@@ -51,7 +51,7 @@ class ContactBtn extends React.Component {
         <div>
           <Button
             variant="outlined"
-            onClick={this.handleOpen}>Open Modal</Button>
+            onClick={this.handleOpen}>Contact</Button>
           <Modal
             aria-labelledby="simple-modal-title"
             aria-describedby="simple-modal-description"

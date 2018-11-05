@@ -1,10 +1,11 @@
 import React from 'react';
 import Button from '@material-ui/core/Button';
 
+
 const AboutBtn = props => {
     return (
         <Button 
-            variant="outlined" 
+            variant="outlined"
             >
         About
       </Button>
