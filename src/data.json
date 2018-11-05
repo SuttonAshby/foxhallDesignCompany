@@ -1,0 +1,21 @@
+[{
+    "key": 0,
+    "id": "ducks",
+    "image": "",
+    "title": "Ducks of America",
+    "blurb": "Lorum Ipsum"
+},
+{
+    "key": 1,
+    "id": "boats",
+    "image": "",
+    "title": "Chesapeake Bay Wooden Boats",
+    "blurb": "Lorum Ipsum"
+},
+{
+    "key": 2,
+    "id": "chesapeake",
+    "image": "",
+    "title": "Chesapeake Country",
+    "blurb": "Lorum Ipsum"  
+}]
