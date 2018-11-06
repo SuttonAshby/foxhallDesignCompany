@@ -5,7 +5,6 @@ import Grid from '@material-ui/core/Grid';
 const ProductSplash = (props) => {
     return (
         <Grid container
-            justify="center" 
             className="splash"
             key={props.key}
             id={props.id}>
