@@ -1,4 +1,5 @@
 import React from 'react';
+import Typography from '@material-ui/core/Typography';
 
 const ProductSplash = (props) => {
     return (
@@ -6,9 +7,16 @@ const ProductSplash = (props) => {
             className="splash"
             key={props.key}
             id={props.id}>
-        <img src={props.image} />
-        <h1 className="productLine">{props.title}</h1>
-        <p>{props.blurb}</p>    
+        <img 
+            align="center"
+            src={props.image} />
+        <Typography 
+            variant="title"
+            align="center"
+            className="productLine">{props.title}</Typography>
+        <Typography
+            variant="body1"
+            align="center">{props.blurb}</Typography>    
         </div>
             
     )
