@@ -19,18 +19,22 @@ const Navbar = props => {
                     <Grid container
                         justify="space-between"
                     >
-                        <Grid item>
-                            <img src={logo} width="210" />
+                        <Grid item xs={6}>
+                            <img src={logo} width="200" />
                         </Grid>
-                        <Grid item>
-                            <ProductsBtn/>
-                        </Grid>
-                        <Grid item>
-                            <ContactBtn/>
-                        </Grid>
-                        <Grid item>
-                            <AboutBtn/>
-                        </Grid>
+                        <Grid xs={6} container item 
+                            justify="space-around"
+                            alignItems="center">
+                            <Grid item>
+                                <ProductsBtn/>
+                            </Grid>
+                            <Grid item>
+                                <ContactBtn/>
+                            </Grid>
+                            <Grid item>
+                                <AboutBtn/>
+                            </Grid>
+                        </Grid> 
                     </Grid>
                 </Toolbar>
             </AppBar>

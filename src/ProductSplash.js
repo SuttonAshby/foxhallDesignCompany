@@ -9,10 +9,10 @@ const ProductSplash = (props) => {
             className="splash"
             key={props.key}
             id={props.id}>
-            <Grid item xs={6} >
+            <Grid item sm={6} >
                 <img src={props.image} />
             </Grid>
-            <Grid item xs={12}>
+            <Grid item sm={12}>
                 <Typography 
                     variant="title"
                     align="center"
