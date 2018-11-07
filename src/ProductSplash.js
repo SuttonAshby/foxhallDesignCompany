@@ -5,11 +5,12 @@ import Grid from '@material-ui/core/Grid';
 const ProductSplash = (props) => {
     return (
         <Grid container
+            justify="center"
             className="splash"
             key={props.key}
             id={props.id}>
-            <Grid item xs={12} >
-                <img width="50%" src={props.image} />
+            <Grid item xs={6} >
+                <img src={props.image} />
             </Grid>
             <Grid item xs={12}>
                 <Typography 
