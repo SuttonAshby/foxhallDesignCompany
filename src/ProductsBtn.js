@@ -3,7 +3,7 @@ import Button from '@material-ui/core/Button';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 
-class DropButton extends React.Component {
+class ProductsBtn extends React.Component {
     state = {
         anchorEl: null,
     };
@@ -43,4 +43,4 @@ class DropButton extends React.Component {
     }
 }
 
-export default DropButton;
+export default ProductsBtn;
