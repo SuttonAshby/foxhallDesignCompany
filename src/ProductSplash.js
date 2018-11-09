@@ -10,7 +10,7 @@ const ProductSplash = (props) => {
             key={props.key}
             id={props.id}>
             <Grid item sm={6} >
-                <img src={props.image} />
+                <img width="100%" src={props.image} />
             </Grid>
             <Grid item sm={12}>
                 <Typography 
