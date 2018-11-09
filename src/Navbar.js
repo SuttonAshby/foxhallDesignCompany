@@ -6,6 +6,10 @@ import AboutBtn from './AboutBtn.js'
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import { Grid } from '@material-ui/core';
+import { Link } from 'react-router-dom';
+import CardMedia from '@material-ui/core/CardMedia';
+
+const HomeLink = props => <Link to="/" {...props} />
 
 
 const Navbar = props => {
@@ -16,10 +20,13 @@ const Navbar = props => {
                     <Grid container
                         justify="space-between"
                     >
-                        <Grid item xs={6}>
-                            <img src={logo} width="200" />
+                        <Grid item xs={3}
+                            component={HomeLink}>
+                            <img src={logo} width="150" />
                         </Grid>
-                        <Grid xs={6} container item 
+                        <Grid item xs={5}>
+                        </Grid>
+                        <Grid xs={4} container item 
                             justify="space-around"
                             alignItems="center">
                             <Grid item>
