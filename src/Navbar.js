@@ -6,15 +6,7 @@ import AboutBtn from './AboutBtn.js'
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import { Grid } from '@material-ui/core';
-// import { withStyles} from '@material-ui/core/styles';
 
-// const styles = theme => {
-
-// }
-
-
-
-// import './Navbar.css'
 
 const Navbar = props => {
     return (
