@@ -6,6 +6,11 @@ import AboutBtn from './AboutBtn.js'
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import { Grid } from '@material-ui/core';
+// import { withStyles} from '@material-ui/core/styles';
+
+// const styles = theme => {
+
+// }
 
 
 
@@ -13,8 +18,8 @@ import { Grid } from '@material-ui/core';
 
 const Navbar = props => {
     return (
-        <div >
-            <AppBar position='static'>
+            <AppBar position='static' 
+                style={{marginBottom:10}}>
                 <Toolbar>
                     <Grid container
                         justify="space-between"
@@ -38,7 +43,6 @@ const Navbar = props => {
                     </Grid>
                 </Toolbar>
             </AppBar>
-        </div>
     )
 }
 export default Navbar;
