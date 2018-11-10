@@ -6,3 +6,5 @@ TODO
 set breakpoints
 navbar set for mobile
 navbar needs horizontal spacing *FIXED
+improve coverage of logo
+test formspree
