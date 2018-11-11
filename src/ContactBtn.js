@@ -62,7 +62,7 @@ class ContactBtn extends React.Component {
           >
             <div style={getModalStyle()} className={classes.paper}>
               <Typography variant="h6" id="modal-title">
-                Text in a modal
+                Contact Us
               </Typography>
               <ContactForm />
             </div>

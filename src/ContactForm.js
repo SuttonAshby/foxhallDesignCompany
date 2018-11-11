@@ -1,5 +1,7 @@
 import React from 'react';
 import TextField from '@material-ui/core/TextField';
+import { Grid } from '@material-ui/core';
+import Button from '@material-ui/core/Button';
 
 class ContactForm extends React.Component {
     state = {
@@ -19,13 +21,35 @@ class ContactForm extends React.Component {
 
         return (
             <form  noValidate autoComplete="off">
-                <TextField
-                    id="standard-with-placeholder"
-                    label="Email"
-                    placeholder="Email"
-                    // className={classes.textField}
-                    margin="normal"
-                    />
+                <Grid container>
+                    <Grid item xs="12">
+                        <TextField
+                            id="standard-with-placeholder"
+                            label="Email"
+                            placeholder="Email"
+                            fullWidth
+                            // className={classes.textField}
+                            margin="normal"
+                            />
+                    </Grid>
+                    <Grid item xs="12">
+                        <TextField
+                            id="standard-multiline-static"
+                            label="Message"
+                            multiline
+                            rows="6"
+                            fullWidth
+                            placeholder="Message"
+                            // className={classes.textField}
+                            margin="normal"
+                            />  
+                    </Grid>
+                    <Grid item xs="12" alignItems="right">
+                        <Button>
+                            Submit
+                        </Button>
+                    </Grid>
+                </Grid>
             </form>
         )
     }
