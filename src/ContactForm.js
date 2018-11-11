@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import TextField from '@material-ui/core/TextField';
 
 class ContactForm extends React.Component {
@@ -14,9 +14,22 @@ class ContactForm extends React.Component {
     };
 
     render(){
+
+
+
         return (
-            <form 
+            <form  noValidate autoComplete="off">
+                <TextField
+                    id="standard-with-placeholder"
+                    label="Email"
+                    placeholder="Email"
+                    // className={classes.textField}
+                    margin="normal"
+                    />
+            </form>
         )
     }
 
 }
+
+export default ContactForm;

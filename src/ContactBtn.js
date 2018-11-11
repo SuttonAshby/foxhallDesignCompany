@@ -4,6 +4,7 @@ import { withStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import Modal from '@material-ui/core/Modal';
 import Button from '@material-ui/core/Button';
+import ContactForm from './ContactForm.js'
 
 
 function rand() {
@@ -63,10 +64,7 @@ class ContactBtn extends React.Component {
               <Typography variant="h6" id="modal-title">
                 Text in a modal
               </Typography>
-              <Typography variant="subtitle1" id="simple-modal-description">
-                Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-              </Typography>
-              <ContactBtnWrapped />
+              <ContactForm />
             </div>
           </Modal>
         </div>
