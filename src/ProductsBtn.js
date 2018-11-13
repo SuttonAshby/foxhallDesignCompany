@@ -2,11 +2,15 @@ import React from 'react';
 import Button from '@material-ui/core/Button';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
+import { Link } from 'react-router-dom'
+
+const LinkProductDucks = props => <Link to="./pages/ProductDucks" {...props} />
 
 class ProductsBtn extends React.Component {
     state = {
         anchorEl: null,
     };
+
 
     handleClick = event => {
         this.setState({ anchorEl: event.currentTarget });
@@ -34,7 +38,9 @@ class ProductsBtn extends React.Component {
                         open={Boolean(anchorEl)}
                         onClose={this.handleClose}
                     >
-                        <MenuItem onClick={this.handleClose}>Ducks of America</MenuItem>
+                        <MenuItem
+                            onClick={this.handleClose}
+                            component={LinkProductDucks}>Ducks of America</MenuItem>
                         <MenuItem onClick={this.handleClose}>Historic Chesapeake Bay Wooden Boats</MenuItem>
                         <MenuItem onClick={this.handleClose}>Chesapeake Country</MenuItem>
                     </Menu>
