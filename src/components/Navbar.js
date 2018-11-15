@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../logo.jpg'
+import logo from '../images/logo.jpg'
 import ProductsBtn from './buttons/ProductsBtn.js'
 import ContactBtn from './buttons/ContactBtn.js'
 import AboutBtn from './buttons/AboutBtn.js'
