@@ -10,15 +10,37 @@ import dataCarousel from '../dataCarousel.json';
 class ImageCarousel extends React.Component {
     state = {
         data: dataCarousel,
-        timer: 0,
-        current: dataCarousel[2].image
+        current: 0
 
     }
+
+    NextPhoto = () =>{
+        if(this.state.current === this.state.data.length-1){
+            setInterval(()=> {
+                this.setState({current: 0});
+                console.log(this.state.current)
+                this.NextPhoto();
+            }, 5000);   
+        } else {
+            setInterval(()=> {
+                this.setState({current: this.state.current + 1});
+                console.log(this.state.current)
+                this.NextPhoto();
+            }, 5000);            
+        }       
+    }
+
+    componentDidMount(){
+        this.NextPhoto()
+    }
+        
+    
+
 
     render(){
         return (
             <div>
-                <img width="100%" src={this.state.current} />
+                <img width="100%" src={this.state.data[this.state.current].image} />
             </div>
         )
     }
