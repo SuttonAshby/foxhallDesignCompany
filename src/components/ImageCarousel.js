@@ -9,14 +9,16 @@ import dataCarousel from '../dataCarousel.json';
 
 class ImageCarousel extends React.Component {
     state = {
-        data: dataCarousel
+        data: dataCarousel,
+        timer: 0,
+        current: dataCarousel[2].image
 
     }
 
     render(){
         return (
             <div>
-
+                <img width="100%" src={this.state.current} />
             </div>
         )
     }
