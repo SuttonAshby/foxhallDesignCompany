@@ -5,6 +5,8 @@ import MenuItem from '@material-ui/core/MenuItem';
 import { Link } from 'react-router-dom'
 
 const LinkProductDucks = props => <Link to="/ducks" {...props} />
+const LinkProductBoats = props => <Link to="/boats" {...props} />
+const LinkProductChesapeake = props => <Link to="/chesapeake" {...props} />
 
 class ProductsBtn extends React.Component {
     state = {
@@ -41,8 +43,12 @@ class ProductsBtn extends React.Component {
                         <MenuItem
                             onClick={this.handleClose}
                             component={LinkProductDucks}>Ducks of America</MenuItem>
-                        <MenuItem onClick={this.handleClose}>Historic Chesapeake Bay Wooden Boats</MenuItem>
-                        <MenuItem onClick={this.handleClose}>Chesapeake Country</MenuItem>
+                        <MenuItem 
+                            onClick={this.handleClose}
+                            component={LinkProductBoats}>Historic Chesapeake Bay Wooden Boats</MenuItem>
+                        <MenuItem 
+                            onClick={this.handleClose}
+                            component={LinkProductChesapeake}>Chesapeake Country</MenuItem>
                     </Menu>
             </div>
         )
