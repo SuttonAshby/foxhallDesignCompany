@@ -4,17 +4,18 @@ import Grid from '@material-ui/core/Grid';
 import ImageCarousel from './ImageCarousel';
 
 const ProductDisplay = (props) => {
-      <Grid container>
+    return (
+        <Grid container>
         <Grid item xs="12">
             <ImageCarousel />
-        </Grid>
-            
+        </Grid>            
         <Grid item xs="12">
         <Typography>
                 {props.about}
             </Typography>
         </Grid>
-      </Grid>  
+      </Grid>
+    )  
 }
 
 export default ProductDisplay

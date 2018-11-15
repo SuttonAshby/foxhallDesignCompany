@@ -1,6 +1,7 @@
 import React from 'react';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
+import ProductDisplay from '../components/ProductDisplay';
 
 const ProductDucks = () => {
     return (
@@ -16,6 +17,9 @@ const ProductDucks = () => {
                     align="left">
                     Lorum Ipsum
                 </Typography>
+            </Grid>
+            <Grid item>
+            <ProductDisplay about="bla bla" />
             </Grid>
         </Grid>
     )
