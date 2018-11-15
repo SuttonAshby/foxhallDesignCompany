@@ -1,6 +1,6 @@
 import React from 'react';
-import ProductSplash from './ProductSplash.js';
-import data from './data.json';
+import ProductSplash from '../components/ProductSplash.js';
+import data from '../data.json';
 
 const HomePage = (props) => {
     

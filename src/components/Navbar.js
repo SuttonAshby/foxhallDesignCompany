@@ -1,13 +1,13 @@
 import React from 'react';
-import logo from './logo.jpg'
-import ProductsBtn from './ProductsBtn.js'
-import ContactBtn from './ContactBtn.js'
-import AboutBtn from './AboutBtn.js'
+import logo from '../logo.jpg'
+import ProductsBtn from './buttons/ProductsBtn.js'
+import ContactBtn from './buttons/ContactBtn.js'
+import AboutBtn from './buttons/AboutBtn.js'
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import { Grid } from '@material-ui/core';
 import { Link } from 'react-router-dom';
-import CardMedia from '@material-ui/core/CardMedia';
+
 
 const HomeLink = props => <Link to="/" {...props} />
 
