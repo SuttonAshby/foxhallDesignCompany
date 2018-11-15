@@ -14,26 +14,25 @@ class ImageCarousel extends React.Component {
 
     }
 
-    NextPhoto = () =>{
+    NextPhoto = () => {
         if(this.state.current === this.state.data.length-1){
-            setInterval(()=> {
                 this.setState({current: 0});
-                console.log(this.state.current)
-                this.NextPhoto();
-            }, 5000);   
+                console.log(this.state.current);
+                console.log("if") 
         } else {
-            setInterval(()=> {
                 this.setState({current: this.state.current + 1});
-                console.log(this.state.current)
-                this.NextPhoto();
-            }, 5000);            
+                console.log(this.state.current);
+                console.log("else")            
         }       
     }
 
     componentDidMount(){
-        this.NextPhoto()
+        this.intervalID = setInterval(this.NextPhoto.bind(this), 5000);
     }
-        
+    
+    componentWillUnmount(){
+        clearInterval(this.intervalID);
+    }
     
 
 
