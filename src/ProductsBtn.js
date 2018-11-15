@@ -4,7 +4,7 @@ import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import { Link } from 'react-router-dom'
 
-const LinkProductDucks = props => <Link to="./pages/ProductDucks" {...props} />
+const LinkProductDucks = props => <Link to="/ducks" {...props} />
 
 class ProductsBtn extends React.Component {
     state = {
