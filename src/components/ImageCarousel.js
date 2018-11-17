@@ -16,6 +16,7 @@ class ImageCarousel extends React.Component {
         imageTwoBool: false,
         imageOne: dataCarousel[0].image,
         imageTwo: dataCarousel[1].image,
+        direction: "left"
 
     }
 
@@ -26,11 +27,13 @@ class ImageCarousel extends React.Component {
         //         this.setState({current: this.state.current + 1});          
         // }
         if(this.state.imageOneBool){
+            this.setState({direction: "right"})
             this.setState({imageOneBool: false})
-            this.setState({imageTwoBool: true})
+            // this.setState({imageTwoBool: true})
         } else {
+            this.setState({direction: "left"})
             this.setState({imageOneBool: true})
-            this.setState({imageTwoBool: false})            
+            // this.setState({imageTwoBool: false})            
         }       
     }
 
@@ -51,12 +54,12 @@ class ImageCarousel extends React.Component {
                     {/* <Slide direction="left" in={this.state.imageOneBool} timeout={1500}>
                         <img width="100%" src={this.state.data[this.state.current].image} />
                     </Slide> */}
-                    <Slide direction="left" in={this.state.imageOneBool} timeout={1500}>
+                    <Slide direction={this.state.direction} in={this.state.imageOneBool} timeout={1500}>
                         <img width="100%" src={this.state.imageOne} />
                     </Slide>
-                    <Slide direction="left" in={this.state.imageTwoBool} timeout={1500}>
+                    {/* <Slide direction="left" in={this.state.imageTwoBool} timeout={1500}>
                         <img width="100%" src={this.state.imageTwo} />
-                    </Slide>
+                    </Slide> */}
                 </Grid>
             </Grid>
         )
