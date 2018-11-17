@@ -37,7 +37,9 @@ class ImageCarousel extends React.Component {
         return (
             <Grid container>
                 <Grid item>
-                <img width="100%" src={this.state.data[this.state.current].image} />
+                    <Slide direction="left" in={true}>
+                        <img width="100%" src={this.state.data[this.state.current].image} />
+                    </Slide>
                 </Grid>
             </Grid>
         )
