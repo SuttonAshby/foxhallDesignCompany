@@ -11,15 +11,26 @@ import { Grid } from '@material-ui/core';
 class ImageCarousel extends React.Component {
     state = {
         data: dataCarousel,
-        current: 0
+        current: 0,
+        imageOneBool: true,
+        imageTwoBool: false,
+        imageOne: dataCarousel[0].image,
+        imageTwo: dataCarousel[1].image,
 
     }
 
     NextPhoto = () => {
-        if(this.state.current === this.state.data.length-1){
-                this.setState({current: 0});
+        // if(this.state.current === this.state.data.length-1){
+        //         this.setState({current: 0});
+        // } else {
+        //         this.setState({current: this.state.current + 1});          
+        // }
+        if(this.state.imageOneBool){
+            this.setState({imageOneBool: false})
+            this.setState({imageTwoBool: true})
         } else {
-                this.setState({current: this.state.current + 1});          
+            this.setState({imageOneBool: true})
+            this.setState({imageTwoBool: false})            
         }       
     }
 
@@ -37,8 +48,14 @@ class ImageCarousel extends React.Component {
         return (
             <Grid container>
                 <Grid item>
-                    <Slide direction="left" in={true}>
+                    {/* <Slide direction="left" in={this.state.imageOneBool} timeout={1500}>
                         <img width="100%" src={this.state.data[this.state.current].image} />
+                    </Slide> */}
+                    <Slide direction="left" in={this.state.imageOneBool} timeout={1500}>
+                        <img width="100%" src={this.state.imageOne} />
+                    </Slide>
+                    <Slide direction="left" in={this.state.imageTwoBool} timeout={1500}>
+                        <img width="100%" src={this.state.imageTwo} />
                     </Slide>
                 </Grid>
             </Grid>
