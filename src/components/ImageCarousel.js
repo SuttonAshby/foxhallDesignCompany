@@ -16,7 +16,8 @@ class ImageCarousel extends React.Component {
         imageTwoBool: false,
         imageOne: dataCarousel[0].image,
         imageTwo: dataCarousel[1].image,
-        direction: "left"
+        directionOne: "left",
+        directionTwo: "left"
 
     }
 
@@ -27,13 +28,18 @@ class ImageCarousel extends React.Component {
         //         this.setState({current: this.state.current + 1});          
         // }
         if(this.state.imageOneBool){
-            this.setState({direction: "right"})
+            this.setState({directionOne: "right"})
             this.setState({imageOneBool: false})
-            // this.setState({imageTwoBool: true})
+            
+            this.setState({directionTwo: "left"})
+            this.setState({imageTwoBool: true})
         } else {
-            this.setState({direction: "left"})
+            this.setState({directionOne: "left"})
             this.setState({imageOneBool: true})
-            // this.setState({imageTwoBool: false})            
+
+            this.setState({directionTwo: "right"}) 
+            this.setState({imageTwoBool: false})
+           
         }       
     }
 
@@ -50,16 +56,19 @@ class ImageCarousel extends React.Component {
     render(){
         return (
             <Grid container>
-                <Grid item>
+                <Grid item xs="6">
                     {/* <Slide direction="left" in={this.state.imageOneBool} timeout={1500}>
                         <img width="100%" src={this.state.data[this.state.current].image} />
                     </Slide> */}
-                    <Slide direction={this.state.direction} in={this.state.imageOneBool} timeout={1500}>
+                    <Slide direction={this.state.directionOne} in={this.state.imageOneBool} timeout={1500}>
                         <img width="100%" src={this.state.imageOne} />
                     </Slide>
-                    {/* <Slide direction="left" in={this.state.imageTwoBool} timeout={1500}>
+
+                </Grid>
+                <Grid item xs="6">
+                    <Slide direction={this.state.directionTwo} in={this.state.imageTwoBool} timeout={1500}>
                         <img width="100%" src={this.state.imageTwo} />
-                    </Slide> */}
+                    </Slide>
                 </Grid>
             </Grid>
         )
