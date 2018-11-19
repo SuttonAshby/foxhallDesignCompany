@@ -10,6 +10,7 @@ improve coverage of logo
 test formspree
 align contact submit form to the right
 crop title page images
+remake carousel to have more control
 
 product display
     image maybe carousel

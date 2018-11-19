@@ -17,20 +17,21 @@ const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
 const styles = theme => ({
     root: {
-      maxWidth: 400,
-      flexGrow: 1,
+    //   maxWidth: 400,
+    //   flexGrow: 1,
     },
     header: {
       display: 'flex',
       alignItems: 'center',
+      justify: 'center',
       height: 50,
       paddingLeft: theme.spacing.unit * 4,
       backgroundColor: theme.palette.background.default,
     },
     img: {
-      height: 255,
+    //   height: 1000,
       display: 'block',
-      maxWidth: 400,
+      maxWidth: "100%",
       overflow: 'hidden',
       width: '100%',
     },
@@ -64,7 +65,7 @@ class StepperCarousel extends React.Component {
         const maxSteps = dataCarousel.length
 
         return (
-            <Grid container >
+            <Grid container className={classes.root}>
                 <Grid item>
                     <AutoPlaySwipeableViews
                         axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
@@ -82,12 +83,12 @@ class StepperCarousel extends React.Component {
                         </div>
                     ))}
                     </AutoPlaySwipeableViews>
-                    <MobileStepper
+                    {/* <MobileStepper
                         steps={maxSteps}
                         position="static"
                         activeStep={activeStep}
                         className={classes.mobileStepper}
-                        />
+                        /> */}
                 </Grid>
             </Grid>
         )
