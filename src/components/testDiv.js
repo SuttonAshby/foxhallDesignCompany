@@ -1,31 +1,27 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import { withStyles } from '@material-ui/core/styles';
 
+const styles = theme => ({
+    divImg: {
+        "background-image": URL("./BoxScowSQ.png"),
+        height: "300px",
+        width: "300px",
+        background: "pink"
+    }
+  });
+
 const testDiv = (props) => {
     return (
-        <Grid container
-            justify="center"
-            className="splash"
-            key={props.key}
-            id={props.id}>
-            <Grid item sm={6} >
-                <img width="100%" src={props.image} />
-            </Grid>
-            <Grid item sm={12}>
-                <Typography 
-                    variant="title"
-                    align="center"
-                    className="productLine">{props.title}
-                </Typography>
-                <Typography
-                    variant="body1"
-                    align="center">{props.blurb}
-                </Typography>    
-            </Grid>
-        </Grid>           
+        <div className="divImg"></div>          
     )
 }
 
-export default testDiv;
+testDiv.propTypes = {
+    classes: PropTypes.object.isRequired,
+    theme: PropTypes.object.isRequired,
+  };
+
+export default withStyles(styles, { withTheme: true })(testDiv);
