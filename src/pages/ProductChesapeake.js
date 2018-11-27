@@ -2,14 +2,15 @@ import React from 'react';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import TestDiv from '../components/TestDiv';
+import MediaCard from '../components/MediaCardTest'
 
 
 const ProductChesapeake = () => {
     return (
         <Grid container>
             <Grid item>
-            <TestDiv />
-                <Typography
+            <MediaCard />
+                {/* <Typography
                     variant="h5"
                     align="left">
                     Chesapeake Country    
@@ -18,7 +19,7 @@ const ProductChesapeake = () => {
                     variant="body1"
                     align="left">
                     Lorum Ipsum
-                </Typography>
+                </Typography> */}
             </Grid>
         </Grid>
     )

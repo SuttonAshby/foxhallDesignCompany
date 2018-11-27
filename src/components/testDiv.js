@@ -17,7 +17,7 @@ const styles = theme => ({
 
 const TestDiv = (props) => {
     return (
-        <div className={divImg}>Blabladfj</div>          
+        <div >Blabladfj</div>          
     )
 }
 
