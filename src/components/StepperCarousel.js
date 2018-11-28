@@ -12,6 +12,7 @@ import { autoPlay } from 'react-swipeable-views-utils';
 
 import dataCarousel from '../dataCarousel.json';
 import { Grid, createMuiTheme } from '@material-ui/core';
+import MediaCard from '../components/MediaCardTest';
 
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
@@ -35,6 +36,9 @@ const styles = theme => ({
       overflow: 'hidden',
       width: '100%',
     },
+    // divImg: {
+    //     "background-image": URL("") 
+    // }
   });
 
 class StepperCarousel extends React.Component {
@@ -76,9 +80,11 @@ class StepperCarousel extends React.Component {
                     {dataCarousel.map((step, index) => (
                         <div key={step.key}>
                             {Math.abs(activeStep - index) <= 2 ? (
-                                <img className={classes.img} 
-                                src={step.image}
-                                alt={step.key} />     
+                                // <img className={classes.img} 
+                                // src={step.image}
+                                // alt={step.key} 
+                                // />
+                                <MediaCard />    
                             ) : null}
                         </div>
                     ))}
