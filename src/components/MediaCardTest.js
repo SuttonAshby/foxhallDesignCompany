@@ -11,41 +11,53 @@ import Typography from '@material-ui/core/Typography';
 
 const styles = {
   card: {
-    maxWidth: 345,
+    maxWidth: 500,
+    minWidth: '100vw' 
   },
   media: {
-    height: 140,
+    height: 500,
+    maxWidth: '100vw'
   },
 };
 
 function MediaCard(props) {
   const { classes } = props;
   return (
+//     <CardMedia
+//     className={classes.media}
+//     image="BowlDuckSQ.png"
+//     title="Contemplative Reptile"
+//   />      
     <Card className={classes.card}>
-      <CardActionArea>
+      {/* <CardActionArea> */}
+        {/* <CardMedia
+          className={classes.media}
+          image="BowlDuckSQ.png"
+          title="Contemplative Reptile"
+        /> */}
+        <CardContent>
         <CardMedia
           className={classes.media}
           image="BowlDuckSQ.png"
           title="Contemplative Reptile"
         />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
+          {/* <Typography gutterBottom variant="h5" component="h2">
             Lizard
           </Typography>
           <Typography component="p">
             Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
             across all continents except Antarctica
-          </Typography>
+          </Typography> */}
         </CardContent>
-      </CardActionArea>
-      <CardActions>
+      {/* </CardActionArea> */}
+      {/* <CardActions>
         <Button size="small" color="primary">
           Share
         </Button>
         <Button size="small" color="primary">
           Learn More
         </Button>
-      </CardActions>
+      </CardActions> */}
     </Card>
   );
 }

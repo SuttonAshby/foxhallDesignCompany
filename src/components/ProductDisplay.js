@@ -8,14 +8,14 @@ import StepperCarousel from './StepperCarousel';
 const ProductDisplay = (props) => {
     return (
         <Grid container>
-        <Grid item xs="12">
+        <Grid item xs={12}>
             {/* <ImageCarousel /> */}
             <StepperCarousel />
         </Grid>            
-        <Grid item xs="12">
-        <Typography>
+        <Grid item xs={12}>
+        {/* <Typography>
                 {props.about}
-            </Typography>
+            </Typography> */}
         </Grid>
       </Grid>
     )  
