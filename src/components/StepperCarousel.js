@@ -76,6 +76,7 @@ class StepperCarousel extends React.Component {
                         index={activeStep}
                         onChangeIndex={this.handleStepChange}
                         enableMouseEvents
+                        interval={7000}
                     >
                     {dataCarousel.map((step, index) => (
                         <div key={step.key}>
