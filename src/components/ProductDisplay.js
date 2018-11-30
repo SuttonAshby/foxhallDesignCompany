@@ -9,8 +9,8 @@ const ProductDisplay = (props) => {
     return (
         <Grid container>
         <Grid item xs={12}>
-            {/* <ImageCarousel /> */}
-            <StepperCarousel />
+            <ImageCarousel />
+            {/* <StepperCarousel /> */}
         </Grid>            
         <Grid item xs={12}>
         {/* <Typography>

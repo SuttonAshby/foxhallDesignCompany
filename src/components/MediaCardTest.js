@@ -12,7 +12,10 @@ import Typography from '@material-ui/core/Typography';
 const styles = {
   card: {
     maxWidth: 500,
-    minWidth: '100vw' 
+    minWidth: '100vw',
+    display: 'block',
+    maxWidth: "100%",
+    overflow: 'hidden', 
   },
   media: {
     height: 500,

@@ -56,7 +56,7 @@ class ImageCarousel extends React.Component {
     render(){
         return (
             <Grid container>
-                <Grid item xs="6">
+                <Grid item  xs={12}>
                     {/* <Slide direction="left" in={this.state.imageOneBool} timeout={1500}>
                         <img width="100%" src={this.state.data[this.state.current].image} />
                     </Slide> */}
@@ -65,7 +65,7 @@ class ImageCarousel extends React.Component {
                     </Slide>
 
                 </Grid>
-                <Grid item xs="6">
+                <Grid item xs={12}>
                     <Slide direction={this.state.directionTwo} in={this.state.imageTwoBool} timeout={1500}>
                         <img width="100%" src={this.state.imageTwo} />
                     </Slide>

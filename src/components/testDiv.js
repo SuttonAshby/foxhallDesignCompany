@@ -6,24 +6,32 @@ import Grid from '@material-ui/core/Grid';
 import { withStyles } from '@material-ui/core/styles';
 import Background from '../images/logo.jpg'
 
-const styles = theme => ({
+const styles = {
     divImg: {
         backgroundImage: `url(${Background})`,
-        height: "300px",
-        width: "300px",
-        background: "pink"
+        height: "50vh",
+        width: "100vw",
+        // background: "pink"
     }
-  });
-
-const TestDiv = (props) => {
-    return (
-        <div >Blabladfj</div>          
-    )
-}
-
-TestDiv.propTypes = {
-    classes: PropTypes.object.isRequired,
-    theme: PropTypes.object.isRequired,
   };
 
-export default withStyles(styles, { withTheme: true })(TestDiv);
+class TestDiv extends React.Component {
+    render() {
+        return (
+            <div>
+            <div style={styles.divImg}>Blabladfj</div>
+            <img src={Background} width="150" />
+            </div>
+          
+        )
+
+    }
+   
+}
+
+// TestDiv.propTypes = {
+//     classes: PropTypes.object.isRequired,
+//     theme: PropTypes.object.isRequired,
+//   };
+
+export default TestDiv;
