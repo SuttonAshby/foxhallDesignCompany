@@ -20,7 +20,7 @@ class TestDiv extends React.Component {
         return (
             <div>
             <div style={styles.divImg}>Blabladfj</div>
-            <img src={Background} width="150" />
+            {/* <img src={Background} width="150" /> */}
             </div>
           
         )
