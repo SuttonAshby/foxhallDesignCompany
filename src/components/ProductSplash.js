@@ -20,25 +20,20 @@ const ProductSplash = (props) => {
             backgroundImage:  `url(${props.image})`,
             height: "50vh",
             width: "100vw",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
+            position: "relative",
         }
       };
 
-
-
-    console.log(props.image)
-    const splash = {
-        image: {
-            backgroundImage: `url(${Background})`,
-            // backgroundImage:  `url(${props.image})`
-        }
-    }
     return (
         <Grid container
             justify="center"
             className="splash"
             key={props.key}
             id={props.id}>
-            <Grid item sm={6} >
+            <Grid item sm={12} >
                 <div style={styles.divImg} />
                 {/* <img width="100%" src={props.image} /> */}
             </Grid>
