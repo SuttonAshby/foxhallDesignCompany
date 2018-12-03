@@ -37,9 +37,15 @@ const styles = theme => ({
       overflow: 'hidden',
       width: '100%',
     },
-    // divImg: {
-    //     "background-image": URL("") 
-    // }
+    divImg: {
+        backgroundImage:  `url(${props.image})`,
+        height: "50vh",
+        width: "100vw",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+        position: "relative",
+    }
   });
 
 class StepperCarousel extends React.Component {
@@ -86,7 +92,8 @@ class StepperCarousel extends React.Component {
                                 // src={step.image}
                                 // alt={step.key} 
                                 // />
-                                <MediaCard />    
+                                // <MediaCard />
+                                <div style={styles.divImg} />    
                             ) : null}
                         </div>
                     ))}
