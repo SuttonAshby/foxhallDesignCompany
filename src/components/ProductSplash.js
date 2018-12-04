@@ -2,6 +2,8 @@ import React from 'react';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 
+/* for use on home page to display each product line
+accepts props for image, title, and blurb */ 
 const ProductSplash = (props) => {
 
     const styles = {

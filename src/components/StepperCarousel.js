@@ -38,7 +38,7 @@ const styles = theme => ({
       width: '100%',
     },
     divImg: {
-        backgroundImage:  `url(${props.image})`,
+        // backgroundImage:  `url(${props.image})`,
         height: "50vh",
         width: "100vw",
         backgroundPosition: "center",
