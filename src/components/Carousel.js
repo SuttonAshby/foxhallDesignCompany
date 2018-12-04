@@ -7,10 +7,21 @@ import MediaCard from '../components/MediaCardTest';
 
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
-class Carousel extends React.Component { 
+class Carousel extends React.Component {
 
     state = {
-        activeStep: 0
+        activeStep: 0,
+        styles: {
+            divImg: {
+                backgroundImage:  `url(${props.image})`,
+                height: "50vh",
+                width: "100vw",
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+                position: "relative",
+            }
+          }
     }
 
     handleNext = () => {
