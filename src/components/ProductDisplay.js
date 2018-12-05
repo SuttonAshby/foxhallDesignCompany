@@ -3,6 +3,8 @@ import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import ImageCarousel from './ImageCarousel';
 import StepperCarousel from './StepperCarousel';
+import Carousel from './Carousel';
+import TestCarousel from './testCarousel';
  
 
 const ProductDisplay = (props) => {
@@ -10,7 +12,9 @@ const ProductDisplay = (props) => {
         <Grid container>
         <Grid item xs={12}>
             {/* <ImageCarousel /> */}
-            <StepperCarousel />
+            {/* <StepperCarousel /> */}
+            {/* <Carousel /> */}
+            <TestCarousel />
         </Grid>            
         <Grid item xs={12}>
         {/* <Typography>
