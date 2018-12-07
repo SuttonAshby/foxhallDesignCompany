@@ -16,12 +16,14 @@ const styles = {
 const ListItem = (props) => {
 
     return (
-    <Grid container>
-        <Grid item xs={6}>
+    <Grid container spacing={0} xs={12}>
+        <Grid item xs={3}>
             <img style={styles.image} src={props.image} />
         </Grid>
-        <Grid item xs={6}>
-            <Typography>
+        <Grid item xs={9}>
+            <Typography
+                variant="body1"
+                align="left">
                     Bullet Points
             </Typography>
         </Grid>

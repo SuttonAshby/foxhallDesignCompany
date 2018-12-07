@@ -10,6 +10,7 @@ const Carousel = (props) => {
         slide: {
           height: "50vh",
           width: "100vw",
+          maxWidth: "100%",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",

@@ -13,7 +13,8 @@ crop title page images
 remake carousel to have more control
     try using background image div
 better control for product dropdown
-carousel occasionally extends past page width
+carousel occasionally extends past page width *FIXED
+    linked to listItem component
 
 product display
     image maybe carousel
