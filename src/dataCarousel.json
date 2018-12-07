@@ -1,11 +1,26 @@
-[{
-    "key": 0,
-    "image": "12PlatesDucks.png"
-}, {
-    "key": 1,
-    "image": "BowlDuckSQ.png" 
-}, {
-    "key": 2,
-    "image": "SteinGoldenEyeSQ.png"
-}
-]
+{
+    "ducks": [
+        {
+            "key": 0,
+            "image": "12PlatesDucks.png"
+        }, {  
+            "key": 1,
+            "image": "BowlDuckSQ.png" 
+        }, {
+            "key": 2,
+            "image": "SteinGoldenEyeSQ.png"
+        }
+    ],
+    "boats": [
+        {
+            "key": 0,
+            "image": "BoatRunnerSQ.png"
+        }, {  
+            "key": 1,
+            "image": "BoxScowSQ.png" 
+        }, {
+            "key": 2,
+            "image": "12PlateBoatsSQ.png"
+        }
+    ]
+} 

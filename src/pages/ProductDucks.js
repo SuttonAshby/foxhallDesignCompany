@@ -6,12 +6,12 @@ import data from '../data.json';
 const ProductDucks = () => {
     return (
         <ProductPage 
-            imageOne={dataCarousel[0].image}
-            imageTwo={dataCarousel[1].image}
-            imageThree={dataCarousel[2].image}
+            imageOne={dataCarousel.ducks[0].image}
+            imageTwo={dataCarousel.ducks[1].image}
+            imageThree={dataCarousel.ducks[2].image}
             title="Ducks of America"
             about="bla bla blas"
-            data={data}
+            data={data}boatsducks
             />
     )
 }
