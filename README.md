@@ -13,6 +13,7 @@ crop title page images
 remake carousel to have more control
     try using background image div
 better control for product dropdown
+carousel occasionally extends past page width
 
 product display
     image maybe carousel

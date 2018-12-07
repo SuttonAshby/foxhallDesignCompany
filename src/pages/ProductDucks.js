@@ -2,6 +2,7 @@ import React from 'react';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import ProductDisplay from '../components/ProductDisplay';
+import ListItem from '../components/ListItem';
 import dataCarousel from '../dataCarousel.json';
 
 const ProductDucks = () => {
@@ -27,6 +28,8 @@ const ProductDucks = () => {
                 </Typography>
             </Grid>
         </Grid>
+        <ListItem 
+            image={dataCarousel[0].image}/>
         </div>
 
     )
