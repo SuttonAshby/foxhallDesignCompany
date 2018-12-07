@@ -5,6 +5,7 @@ import ProductDisplay from '../components/ProductDisplay';
 
 const ProductDucks = () => {
     return (
+        <div>
         <Grid container>
             <Grid item>
                 <Typography
@@ -18,10 +19,10 @@ const ProductDucks = () => {
                     Lorum Ipsum
                 </Typography>
             </Grid>
-            <Grid item>
-            <ProductDisplay about="bla bla" />
-            </Grid>
         </Grid>
+        <ProductDisplay />
+        </div>
+
     )
 }
 

@@ -27,7 +27,8 @@ const styles = {
 };
 
 const TestCarousel = () => (
-  <AutoPlaySwipeableViews>
+  <AutoPlaySwipeableViews
+  interval={7000}>
     <div style={Object.assign({}, styles.slide, styles.slide1)}>
       slide n°1
     </div>
