@@ -12,6 +12,7 @@ align contact submit form to the right
 crop title page images
 remake carousel to have more control
     try using background image div
+better control for product dropdown
 
 product display
     image maybe carousel
