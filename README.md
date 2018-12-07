@@ -16,6 +16,8 @@ better control for product dropdown
 carousel occasionally extends past page width *FIXED
     linked to listItem component
 
+add modal to list item images
+
 product display
     image maybe carousel
     title and about
