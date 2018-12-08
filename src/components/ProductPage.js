@@ -38,6 +38,13 @@ const ProductPage = (props) => {
                     </Typography>
                 </Grid>
             </Grid>
+            <Grid item>
+            <Typography
+                        variant="h5"
+                        align="left">
+                        Product Line Item Listing   
+                    </Typography>
+            </Grid>
             {listItems}
         </div>
 

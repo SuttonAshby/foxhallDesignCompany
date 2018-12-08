@@ -16,7 +16,7 @@ const styles = {
 const ListItem = (props) => {
 
     return (
-    <Grid container spacing={0} xs={12}>
+    <Grid container xs={12}>
         <Grid item xs={3}>
             <img style={styles.image} src={props.image} />
         </Grid>

@@ -24,7 +24,8 @@ const ProductSplash = (props) => {
             justify="center"
             className="splash"
             key={props.key}
-            id={props.id}>
+            id={props.id}
+            component={props.link}>
             <Grid item sm={12} >
                 <div style={styles.divImg} />
             </Grid>
