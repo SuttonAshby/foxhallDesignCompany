@@ -12,6 +12,7 @@ const HomePage = (props) => {
             image={lines.image}
             title={lines.title}
             blurb={lines.blurb}
+            link={lines.link}
             />
 
     })
