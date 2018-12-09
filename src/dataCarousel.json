@@ -22,5 +22,17 @@
             "key": 2,
             "image": "12PlateBoatsSQ.png"
         }
+    ],
+    "chesapeake": [
+        {
+            "key": 0,
+            "image": ""
+        }, {  
+            "key": 1,
+            "image": "" 
+        }, {
+            "key": 2,
+            "image": ""
+        }
     ]
 } 

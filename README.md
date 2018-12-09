@@ -11,10 +11,11 @@ test formspree
 align contact submit form to the right
 crop title page images
 remake carousel to have more control
-    try using background image div
+    try using background image div *USING
 better control for product dropdown
 carousel occasionally extends past page width *FIXED
     linked to listItem component
+fix link styling for splashes
 
 add modal to list item images
 
