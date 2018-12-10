@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../images/logo.jpg'
+import Logo from '../images/logo.jpg'
 import ProductsBtn from './buttons/ProductsBtn.js'
 import ContactBtn from './buttons/ContactBtn.js'
 import AboutBtn from './buttons/AboutBtn.js'
@@ -7,22 +7,33 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import { Grid } from '@material-ui/core';
 import { Link } from 'react-router-dom';
+import Banner from  '../images/banner.jpg'
 
 
 const HomeLink = props => <Link to="/" {...props} />
 
+const styles = {
+    AppBar: {
+        marginBottom: 10,
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+        backgroundImage:  `url(${Banner})`,
+
+    }
+}
 
 const Navbar = props => {
     return (
             <AppBar position='static' 
-                style={{marginBottom:10}}>
+                style={styles.AppBar}>
                 <Toolbar>
                     <Grid container
                         justify="space-between"
                     >
                         <Grid item xs={3}
                             component={HomeLink}>
-                            <img src={logo} width="150" />
+                            <img src={Logo} width="150" />
                         </Grid>
                         <Grid item xs={5}>
                         </Grid>
