@@ -16,6 +16,8 @@ better control for product dropdown
 carousel occasionally extends past page width *FIXED
     linked to listItem component
 fix link styling for splashes
+better banner image
+adjust banner buttons
 
 add modal to list item images
 
