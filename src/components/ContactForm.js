@@ -6,7 +6,7 @@ import Button from '@material-ui/core/Button';
 class ContactForm extends React.Component {
     state = {
         email: "",
-        multiline: "",
+        message: "",
     }
 
     handleChange = name => event => {
@@ -15,20 +15,26 @@ class ContactForm extends React.Component {
         });
     };
 
-    render(){
+    handleSubmit = event => {
+        event.preventDefault();
 
-        const data = {}
+
+    }
+
+    render(){
 
         return (
             <form  
                 noValidate 
                 autoComplete="off"
                 method="POST"
-                action="https://formspree.io/foxhalldesigncompany@gmail.com">
+                // action="https://formspree.io/foxhalldesigncompany@gmail.com"
+                >
                 <Grid container>
                     <Grid item xs={12}>
                         <TextField
-                            id="standard-with-placeholder"
+                            id="email"
+                            name="email"
                             label="Email"
                             placeholder="Email"
                             defaultValue={this.state.email}
@@ -40,13 +46,14 @@ class ContactForm extends React.Component {
                     </Grid>
                     <Grid item xs={12}>
                         <TextField
-                            id="standard-multiline-static"
+                            id="message"
+                            name="message"
                             label="Message"
                             multiline
                             rows="6"
                             fullWidth
                             placeholder="Message"
-                            defaultValue={this.state.multiline}
+                            defaultValue={this.state.message}
                             onChange={this.handleChange("multiline")}
                             // className={classes.textField}
                             margin="normal"
