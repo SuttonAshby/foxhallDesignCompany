@@ -1,23 +1,19 @@
 import React from 'react';
-import Typography from '@material-ui/core/Typography';
-import Grid from '@material-ui/core/Grid';
+import ProductPage from '../components/ProductPage';
+import dataCarousel from '../dataCarousel.json';
+import data from '../productData.json';
+
 
 const ProductBoats = () => {
     return (
-        <Grid container>
-            <Grid item>
-                <Typography
-                    variant="h5"
-                    align="left">
-                    Historic Chesapeake Bay Wooden Boats    
-                </Typography>
-                <Typography
-                    variant="body1"
-                    align="left">
-                    Lorum Ipsum
-                </Typography>
-            </Grid>
-        </Grid>
+        <ProductPage 
+        imageOne={dataCarousel.boats[0].image}
+        imageTwo={dataCarousel.boats[1].image}
+        imageThree={dataCarousel.boats[2].image}
+        title="Historic Chesapeake Bay Wooden Boats"
+        about="bla bla blas"
+        data={data.boats}
+        />
     )
 }
 

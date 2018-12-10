@@ -20,7 +20,9 @@ better banner image
 adjust banner buttons
 contact modal appears in different locations
 
-add modal to list item images
+add modal to list item images*DONE
+    add Image title to modal image
+
 
 product display
     image maybe carousel

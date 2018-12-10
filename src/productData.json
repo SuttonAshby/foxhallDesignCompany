@@ -4,20 +4,30 @@
         "image": "images/ducks/12PlatesDucks.png",
         "bullets": [
             "Heirloom-quality china with double gold band.",
-            "Desirable rim shape plates.Six dinner plates. 10 5/8 in.",
+            "Desirable rim shape plates.Six", 
+            "dinner plates. 10 5/8 in.",
             "Six salad/dessert plates. 8 1/2 in.",
-            "Dishwasher-safe. (Hand-washing recommended.)"    
+            "Dishwasher-safe. (Hand-washing recommended.)"      
             ]
-        },
-        {"title": "Duck Presentation Bowl",
+        },{
+        "title": "Duck Presentation Bowl",
         "image": "images/ducks/BowlDuckSQ.png",
         "bullets": [
             "The fine porcelain bowl was designed by FOXHALL DESIGN COMPANY and made especially for this series.",
             "Ht. 5 in. Diameter: 9 ½ in.",
             "Wood Bowl stand sold separately."  
             ]
-        },
-        {"title": "North American Duck Runner",
+        },{
+        "title": "North American Duck Runner (Horizontal)",
+        "image": "images/ducks/DuckRunnerH.png",
+        "bullets": [
+            "Attractive pebble background with a double border.",
+            "Outstanding wear performance.",
+            "Made of premium grade nylon with stain-resistant Teflon.",
+            "Size: 2ft. x 8 ft."  
+            ]
+        },{
+        "title": "North American Duck Runner (Horizontal)",
         "image": "images/ducks/DuckRunnerH.png",
         "bullets": [
             "Attractive pebble background with a double border.",
@@ -26,5 +36,36 @@
             "Size: 2ft. x 8 ft."  
             ]
         }
+    ],
+    "boats":[{
+        "title": "Exquisite 12-Piece Place Setting",
+        "image": "images/boats/12PlateBoatsSQ.png",
+        "bullets": [
+            "Heirloom-quality china with double gold band.",
+            "Desirable rim shape plates.Six", 
+            "dinner plates. 10 5/8 in.",
+            "Six salad/dessert plates. 8 1/2 in.",
+            "Dishwasher-safe. (Hand-washing recommended.)"    
+            ]
+        },{
+        "title": "Chesapeake Bay Wooden Boats Presentation Bowl",
+        "image": "images/boats/BowlBugeyeSQ.png",
+        "bullets": [
+            "This stunning presentation bowl is decorated with all six boats in the HISTORIC CHESAPEAKE BAY WOODEN BOATS series.",
+            "The fine porcelain bowl was designed by FOXHALL DESIGN COMPANY and made especially for this series.",
+            "Ht. 5 in. Diameter: 9 ½ in.",
+            "Wood Bowl stand sold separately."  
+            ]
+        },{
+        "title": "Boat Runner",
+        "image": "images/boats/BoatRunnerSQ.png",
+        "bullets": [
+            "Attractive pebble background with a double border.",
+            "Outstanding wear performance.",
+            "Made of premium grade nylon with stain-resistant Teflon.",
+            "Size: 2ft. x 8 ft.",
+            "Only available in a vertical style"  
+            ]
+            }
     ]
 }
