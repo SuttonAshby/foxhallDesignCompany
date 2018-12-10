@@ -2,25 +2,25 @@
     "ducks": [
         {
             "key": 0,
-            "image": "12PlatesDucks.png"
+            "image": "images/ducks/12PlatesDucks.png"
         }, {  
             "key": 1,
-            "image": "BowlDuckSQ.png" 
+            "image": "images/ducks/BowlDuckSQ.png" 
         }, {
             "key": 2,
-            "image": "SteinGoldenEyeSQ.png"
+            "image": "images/ducks/SteinGoldenEyeSQ.png"
         }
     ],
     "boats": [
         {
             "key": 0,
-            "image": "BoatRunnerSQ.png"
+            "image": "images/boats/BoatRunnerSQ.png"
         }, {  
             "key": 1,
-            "image": "BoxScowSQ.png" 
+            "image": "images/boats/BoxScowSQ.png" 
         }, {
             "key": 2,
-            "image": "12PlateBoatsSQ.png"
+            "image": "images/boats/12PlateBoatsSQ.png"
         }
     ],
     "chesapeake": [

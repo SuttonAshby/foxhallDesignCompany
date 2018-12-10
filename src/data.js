@@ -5,7 +5,7 @@ const data = [
     {
         key: 0,
         id: "ducks",
-        image: "12PlatesDucks.png",
+        image: "images/ducks/12PlatesDucks.png",
         title: "Ducks of America",
         blurb: "Lorum Ipsum",
         link:  (props = {}) => <Link to="/ducks" {...props} />
@@ -13,7 +13,7 @@ const data = [
     {
         key: 1,
         id: "boats",
-        image: "BoxScowSQ.png",
+        image: "images/boats/BoxScowSQ.png",
         title: "Chesapeake Bay Wooden Boats",
         blurb: "Lorum Ipsum",
         link:  (props = {}) => <Link to="/boats" {...props} />
@@ -21,7 +21,7 @@ const data = [
     {
         "key": 2,
         "id": "chesapeake",
-        "image": "",
+        "image": "images/chesapeake/CCmat-SQ-Op.png",
         "title": "Chesapeake Country",
         "blurb": "Lorum Ipsum",
         link:  (props = {}) => <Link to="/chesapeake" {...props} />  
