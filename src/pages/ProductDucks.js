@@ -1,7 +1,7 @@
 import React from 'react';
 import dataCarousel from '../dataCarousel.json';
 import ProductPage from '../components/ProductPage';
-import data from '../data.js';
+import data from '../productData.json';
 
 const ProductDucks = () => {
     return (
@@ -11,7 +11,7 @@ const ProductDucks = () => {
             imageThree={dataCarousel.ducks[2].image}
             title="Ducks of America"
             about="bla bla blas"
-            data={data}boatsducks
+            data={data.ducks}
             />
     )
 }

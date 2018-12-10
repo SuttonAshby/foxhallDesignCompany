@@ -15,16 +15,25 @@ const styles = {
 
 const ListItem = (props) => {
 
+    const bulleted = props.bullets.map(element =>{
+        return <li>{element}</li>
+    })
+
     return (
     <Grid container xs={12}>
         <Grid item xs={3}>
             <img style={styles.image} src={props.image} />
         </Grid>
         <Grid item xs={9}>
+        <Typography
+                variant="h6"
+                align="left">
+                    {props.title}
+            </Typography>        
             <Typography
                 variant="body1"
                 align="left">
-                    Bullet Points
+                    <ul>{bulleted}</ul>
             </Typography>
         </Grid>
     </Grid>

@@ -1,0 +1,21 @@
+{
+    "ducks":[{
+        "title": "Exquisite 12-Piece Place Setting",
+        "image": "12PlatesDucks.png",
+        "bullets": [
+            "Heirloom-quality china with double gold band.",
+            "Desirable rim shape plates.Six dinner plates. 10 5/8 in.",
+            "Six salad/dessert plates. 8 1/2 in.",
+            "Dishwasher-safe. (Hand-washing recommended.)"    
+            ]
+        },
+        {"title": "Duck Presentation Bowl",
+        "image": "BowlDuckSQ.png",
+        "bullets": [
+            "The fine porcelain bowl was designed by FOXHALL DESIGN COMPANY and made especially for this series.",
+            "Ht. 5 in. Diameter: 9 ½ in.",
+            "Wood Bowl stand sold separately."  
+            ]
+        }
+    ]
+}

@@ -13,7 +13,7 @@ const ProductPage = (props) => {
             id={item.id}
             image={item.image}
             title={item.title}
-            blurb={item.blurb}
+            bullets={item.bullets}
             />
 
     })
