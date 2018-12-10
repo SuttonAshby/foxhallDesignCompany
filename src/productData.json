@@ -4,8 +4,8 @@
         "image": "images/ducks/12PlatesDucks.png",
         "bullets": [
             "Heirloom-quality china with double gold band.",
-            "Desirable rim shape plates.Six", 
-            "dinner plates. 10 5/8 in.",
+            "Desirable rim shape plates.", 
+            "Six dinner plates. 10 5/8 in.",
             "Six salad/dessert plates. 8 1/2 in.",
             "Dishwasher-safe. (Hand-washing recommended.)"      
             ]
@@ -42,8 +42,8 @@
         "image": "images/boats/12PlateBoatsSQ.png",
         "bullets": [
             "Heirloom-quality china with double gold band.",
-            "Desirable rim shape plates.Six", 
-            "dinner plates. 10 5/8 in.",
+            "Desirable rim shape plates.", 
+            "Six dinner plates. 10 5/8 in.",
             "Six salad/dessert plates. 8 1/2 in.",
             "Dishwasher-safe. (Hand-washing recommended.)"    
             ]
@@ -67,5 +67,16 @@
             "Only available in a vertical style"  
             ]
             }
-    ]
+    ],
+    "chesapeake":[{
+        "title": "Chesapeake Country Welcome Mat",
+        "image": "images/chesapeake/CCMat-SQ-Op.png",
+        "bullets": [
+            "100% Natural Coir, a renewable & sustainable resource.",
+            "This top quality doormat is made of the finest fibers to withstand all weather elements.", 
+            "Made exclusively for Foxhall.",
+            "18\"x30\", 0.6\" Thick"   
+            ]
+        }
+]
 }
