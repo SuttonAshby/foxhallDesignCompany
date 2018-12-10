@@ -17,7 +17,7 @@ class ContactForm extends React.Component {
 
     render(){
 
-
+        console.log(this.state.email + this.state.multiline)
 
         return (
             <form  noValidate autoComplete="off">
@@ -44,8 +44,8 @@ class ContactForm extends React.Component {
                             margin="normal"
                             />  
                     </Grid>
-                    <Grid item xs="12" alignItems="right">
-                        <Button>
+                    <Grid item xs="12" flexDirection="row-reverse">
+                        <Button variant="contained">
                             Submit
                         </Button>
                     </Grid>

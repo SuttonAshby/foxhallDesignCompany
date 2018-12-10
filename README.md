@@ -18,6 +18,7 @@ carousel occasionally extends past page width *FIXED
 fix link styling for splashes
 better banner image
 adjust banner buttons
+contact modal appears in different locations
 
 add modal to list item images
 
