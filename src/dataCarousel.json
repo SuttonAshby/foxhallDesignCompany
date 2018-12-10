@@ -26,13 +26,13 @@
     "chesapeake": [
         {
             "key": 0,
-            "image": "images/chesapeake/CCMat-SQ-Op.png"
+            "image": "images/chesapeake/CCMatSQ.png"
         }, {  
             "key": 1,
-            "image": "" 
+            "image": "images/chesapeake/CCJute.png" 
         }, {
             "key": 2,
-            "image": ""
+            "image": "images/chesapeake/CCEspressoCapSQ.png"
         }
     ]
 } 
