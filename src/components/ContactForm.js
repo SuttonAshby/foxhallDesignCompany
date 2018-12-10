@@ -9,7 +9,7 @@ class ContactForm extends React.Component {
         multiline: "",
     }
 
-    handleCHange = name => event => {
+    handleChange = name => event => {
         this.setState({
             [name]: event.target.value,
         });
@@ -17,22 +17,28 @@ class ContactForm extends React.Component {
 
     render(){
 
-        console.log(this.state.email + this.state.multiline)
+        const data = {}
 
         return (
-            <form  noValidate autoComplete="off">
+            <form  
+                noValidate 
+                autoComplete="off"
+                method="POST"
+                action="https://formspree.io/foxhalldesigncompany@gmail.com">
                 <Grid container>
-                    <Grid item xs="12">
+                    <Grid item xs={12}>
                         <TextField
                             id="standard-with-placeholder"
                             label="Email"
                             placeholder="Email"
+                            defaultValue={this.state.email}
+                            onChange={this.handleChange("email")}
                             fullWidth
                             // className={classes.textField}
                             margin="normal"
                             />
                     </Grid>
-                    <Grid item xs="12">
+                    <Grid item xs={12}>
                         <TextField
                             id="standard-multiline-static"
                             label="Message"
@@ -40,14 +46,16 @@ class ContactForm extends React.Component {
                             rows="6"
                             fullWidth
                             placeholder="Message"
+                            defaultValue={this.state.multiline}
+                            onChange={this.handleChange("multiline")}
                             // className={classes.textField}
                             margin="normal"
                             />  
                     </Grid>
-                    <Grid item xs="12" flexDirection="row-reverse">
-                        <Button variant="contained">
-                            Submit
-                        </Button>
+                    <Grid container item xs="12" justify="flex-end">
+                            <Button type="submit" variant="contained">
+                                Submit
+                            </Button>
                     </Grid>
                 </Grid>
             </form>
