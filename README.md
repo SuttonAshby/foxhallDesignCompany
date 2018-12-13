@@ -22,9 +22,14 @@ contact modal appears in different locations
 
 add modal to list item images*DONE
     add Image title to modal image
+    and close button to modal image
 
 
 product display
     image maybe carousel
     title and about
     then map.listItem
+
+trivets and place settings on special order
+rest are available
+add bay family
