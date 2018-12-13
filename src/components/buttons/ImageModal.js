@@ -50,9 +50,6 @@ class ImageModal extends React.Component {
   
       return (
         <div>
-          <Button
-            variant="outlined"
-            onClick={this.handleOpen}>Contact</Button>
           <Modal
             aria-labelledby="simple-modal-title"
             aria-describedby="simple-modal-description"
@@ -60,10 +57,7 @@ class ImageModal extends React.Component {
             onClose={this.handleClose}
           >
             <div style={getModalStyle()} className={classes.paper}>
-              <Typography variant="h6" id="modal-title">
-                Contact Us
-              </Typography>
-              <ContactForm />
+            {this.props.image}
             </div>
           </Modal>
         </div>
