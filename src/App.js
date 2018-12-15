@@ -3,6 +3,7 @@ import Navbar from './components/Navbar.js';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import HomePage from './pages/HomePage.js';
 import AboutPage from './pages/AboutPage.js';
+import CustomPage from './pages/CustomPage.js';
 import ProductDucks from './pages/ProductDucks.js';
 import ProductBoats from './pages/ProductBoats.js';
 import ProductChesapeake from './pages/ProductChesapeake.js';
@@ -13,6 +14,7 @@ import ProductChesapeake from './pages/ProductChesapeake.js';
     <Navbar />
       <Route exact path="/" component={HomePage} />
       <Route exact path="/about" component={AboutPage} />
+      <Route exact path="/custom" component={CustomPage} />
       <Route exact path="/ducks" component={ProductDucks} />
       <Route exact path="/boats" component={ProductBoats} />
       <Route exact path="/chesapeake" component={ProductChesapeake} />

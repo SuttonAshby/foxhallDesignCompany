@@ -3,6 +3,7 @@ import Logo from '../images/logo.jpg'
 import ProductsBtn from './buttons/ProductsBtn.js'
 import ContactBtn from './buttons/ContactBtn.js'
 import AboutBtn from './buttons/AboutBtn.js'
+import CustomBtn from './buttons/CustomBtn.js'
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import { Grid } from '@material-ui/core';
@@ -35,9 +36,9 @@ const Navbar = props => {
                             component={HomeLink}>
                             <img src={Logo} width="150" />
                         </Grid>
-                        <Grid item xs={5}>
+                        <Grid item xs={3}>
                         </Grid>
-                        <Grid xs={4} container item 
+                        <Grid xs={6} container item 
                             justify="space-around"
                             alignItems="center">
                             <Grid item>
@@ -48,6 +49,9 @@ const Navbar = props => {
                             </Grid>
                             <Grid item>
                                 <AboutBtn/>
+                            </Grid>
+                            <Grid item>
+                                <CustomBtn/>
                             </Grid>
                         </Grid> 
                     </Grid>
