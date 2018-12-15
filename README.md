@@ -33,3 +33,5 @@ product display
 trivets and place settings on special order
 rest are available
 add bay family
+add custom orders
+    don't incluyde mug
