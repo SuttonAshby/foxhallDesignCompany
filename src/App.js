@@ -7,6 +7,7 @@ import CustomPage from './pages/CustomPage.js';
 import ProductDucks from './pages/ProductDucks.js';
 import ProductBoats from './pages/ProductBoats.js';
 import ProductChesapeake from './pages/ProductChesapeake.js';
+import ProductBay from './pages/ProductBay.js';
 
  const App = () => (
   <Router>
@@ -18,6 +19,7 @@ import ProductChesapeake from './pages/ProductChesapeake.js';
       <Route exact path="/ducks" component={ProductDucks} />
       <Route exact path="/boats" component={ProductBoats} />
       <Route exact path="/chesapeake" component={ProductChesapeake} />
+      <Route exact path="/bay" component={ProductBay} />
     </div>
   </Router>
 )

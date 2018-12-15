@@ -34,5 +34,17 @@
             "key": 2,
             "image": "images/chesapeake/CCEspressoCapSQ.png"
         }
+    ],
+    "bay": [
+        {
+            "key": 0,
+            "image": "images/chesapeake/CCMatSQ.png"
+        }, {  
+            "key": 1,
+            "image": "images/chesapeake/CCJute.png" 
+        }, {
+            "key": 2,
+            "image": "images/chesapeake/CCEspressoCapSQ.png"
+        }
     ]
 } 

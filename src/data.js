@@ -19,12 +19,20 @@ const data = [
         link:  (props = {}) => <Link to="/boats" {...props} />
     },
     {
-        "key": 2,
-        "id": "chesapeake",
-        "image": "images/chesapeake/CCmat-SQ-Op.png",
-        "title": "Chesapeake Country",
-        "blurb": "Lorum Ipsum",
+        key: 2,
+        id: "chesapeake",
+        image: "images/chesapeake/CCmat-SQ-Op.png",
+        title: "Chesapeake Country",
+        blurb: "Lorum Ipsum",
         link:  (props = {}) => <Link to="/chesapeake" {...props} />  
+    },
+    {
+        key: 3,
+        id: "bay",
+        image: "images/chesapeake/CCmat-SQ-Op.png",
+        title: "Bay Family",
+        blurb: "Lorum Ipsum",
+        link:  (props = {}) => <Link to="/bay" {...props} />  
     }];
 
     export default data;

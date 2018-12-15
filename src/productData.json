@@ -78,5 +78,16 @@
             "18\"x30\", 0.6\" Thick"   
             ]
         }
-]
+    ],
+    "bay":[{
+        "title": "Chesapeake Country Welcome Mat",
+        "image": "images/chesapeake/CCMatSQ.png",
+        "bullets": [
+            "100% Natural Coir, a renewable & sustainable resource.",
+            "This top quality doormat is made of the finest fibers to withstand all weather elements.", 
+            "Made exclusively for Foxhall.",
+            "18\"x30\", 0.6\" Thick"   
+            ]    
+    }
+    ]
 }

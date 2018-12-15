@@ -24,6 +24,7 @@ add modal to list item images*DONE
     add Image title to modal image
     and close button to modal image
 
+map product button
 
 product display
     image maybe carousel

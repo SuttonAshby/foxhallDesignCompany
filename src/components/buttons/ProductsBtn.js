@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom'
 const LinkProductDucks = props => <Link to="/ducks" {...props} />
 const LinkProductBoats = props => <Link to="/boats" {...props} />
 const LinkProductChesapeake = props => <Link to="/chesapeake" {...props} />
+const LinkProductBay = props => <Link to="/bay" {...props} />
 
 class ProductsBtn extends React.Component {
     state = {
@@ -49,6 +50,9 @@ class ProductsBtn extends React.Component {
                         <MenuItem 
                             onClick={this.handleClose}
                             component={LinkProductChesapeake}>Chesapeake Country</MenuItem>
+                        <MenuItem 
+                            onClick={this.handleClose}
+                            component={LinkProductBay}>Bay Family</MenuItem>
                     </Menu>
             </div>
         )
