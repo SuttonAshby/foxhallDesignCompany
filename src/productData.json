@@ -76,26 +76,140 @@
                 "Ht. 5 in. Depth: 3 in."      
                 ]
         },{
+            "title": "Duck Wooden Box (Canvasback)",
+            "image": "images/ducks/BoxCanvasbackSQ.png",
+            "bullets": [
+                "Handsome wood box with tile on top.",
+                "Tan felt lining protects objects in box.", 
+                "A perfect box for loose coins, stamps, and other items.",
+                "Hinged lid.",
+                "Ht. 5 in. Depth: 3 in."      
+                ]
+        },{
             "title": "Duck Stein (Goldeneye)",
             "image": "images/ducks/SteinGoldeneyeSQ.png",
             "bullets": [
                 "Traditional Beer Stein. 32 oz.",
                 "Top-quality ceramic ware.", 
                 "Color: White",
-                "Hinged lid.",
                 "Ht. 6 3/8 in."      
                 ]
         },{
-        "title": "Exquisite 12-Piece Place Setting",
-        "image": "images/ducks/12PlatesDucks.png",
-        "bullets": [
-            "Heirloom-quality china with double gold band.",
-            "Desirable rim shape plates.", 
-            "Six dinner plates. 10 5/8 in.",
-            "Six salad/dessert plates. 8 1/2 in.",
-            "Dishwasher-safe. (Hand-washing recommended.)",
-            "Available by special order only"      
-            ]
+            "title": "Duck Stein (Bufflehead)",
+            "image": "images/ducks/SteinBuffleheadSQ.png",
+            "bullets": [
+                "Traditional Beer Stein. 32 oz.",
+                "Top-quality ceramic ware.", 
+                "Color: White",
+                "Ht. 6 3/8 in."      
+                ]
+        },{
+            "title": "Duck Stein (Mallard)",
+            "image": "images/ducks/SteinMallardSQ.png",
+            "bullets": [
+                "Traditional Beer Stein. 32 oz.",
+                "Top-quality ceramic ware.", 
+                "Color: White",
+                "Ht. 6 3/8 in."      
+                ]
+        },{
+            "title": "Duck Stein (Common Pintail)",
+            "image": "images/ducks/SteinPintailSQ.png",
+            "bullets": [
+                "Traditional Beer Stein. 32 oz.",
+                "Top-quality ceramic ware.", 
+                "Color: White",
+                "Ht. 6 3/8 in."      
+                ]
+        },{
+            "title": "Duck Stein (Wood Duck)",
+            "image": "images/ducks/SteinWoodSQ.png",
+            "bullets": [
+                "Traditional Beer Stein. 32 oz.",
+                "Top-quality ceramic ware.", 
+                "Color: White",
+                "Ht. 6 3/8 in."      
+                ]
+        },{
+            "title": "Duck Stein (Canvasback)",
+            "image": "images/ducks/SteinCanvasbackSQ.png",
+            "bullets": [
+                "Traditional Beer Stein. 32 oz.",
+                "Top-quality ceramic ware.", 
+                "Color: White",
+                "Ht. 6 3/8 in."      
+                ]
+        },{
+            "title": "Exquisite 12-Piece Place Setting",
+            "image": "images/ducks/12PlatesDucks.png",
+            "bullets": [
+                "Heirloom-quality china with double gold band.",
+                "Desirable rim shape plates.", 
+                "Six dinner plates. 10 5/8 in.",
+                "Six salad/dessert plates. 8 1/2 in.",
+                "Dishwasher-safe. (Hand-washing recommended.)",
+                "Available by special order only"      
+                ]
+        },{
+            "title": "Duck Trivet (Goldeneye)",
+            "image": "images/ducks/TrivetGoldenEyeSQ.png",
+            "bullets": [
+                "Handsome wood trivet that can be used as a trivet, wall hanging, or a collectible on a stand (as shown).",
+                "Trivet back: Smooth wood with four small cushioned pads to protect wall/other surfaces; brass hook for wall hanging.", 
+                "7.5 in. x 7.5 in.",
+                "Stand not included",
+                "Available by special order only"     
+                ]
+        },{
+            "title": "Duck Trivet (Bufflehead)",
+            "image": "images/ducks/TrivetBuffleheadSQ.png",
+            "bullets": [
+                "Handsome wood trivet that can be used as a trivet, wall hanging, or a collectible on a stand (as shown).",
+                "Trivet back: Smooth wood with four small cushioned pads to protect wall/other surfaces; brass hook for wall hanging.", 
+                "7.5 in. x 7.5 in.",
+                "Stand not included",
+                "Available by special order only"     
+                ]
+        },{
+            "title": "Duck Trivet (Mallard)",
+            "image": "images/ducks/TrivetMallardSQ.png",
+            "bullets": [
+                "Handsome wood trivet that can be used as a trivet, wall hanging, or a collectible on a stand (as shown).",
+                "Trivet back: Smooth wood with four small cushioned pads to protect wall/other surfaces; brass hook for wall hanging.", 
+                "7.5 in. x 7.5 in.",
+                "Stand not included",
+                "Available by special order only"     
+                ]
+        },{
+            "title": "Duck Trivet (Common Pintail)",
+            "image": "images/ducks/TrivetPintailSQ.png",
+            "bullets": [
+                "Handsome wood trivet that can be used as a trivet, wall hanging, or a collectible on a stand (as shown).",
+                "Trivet back: Smooth wood with four small cushioned pads to protect wall/other surfaces; brass hook for wall hanging.", 
+                "7.5 in. x 7.5 in.",
+                "Stand not included",
+                "Available by special order only"     
+                ]
+        },{
+            "title": "Duck Trivet (Wood Duck)",
+            "image": "images/ducks/TrivetWoodDuckSQ.png",
+            "bullets": [
+                "Handsome wood trivet that can be used as a trivet, wall hanging, or a collectible on a stand (as shown).",
+                "Trivet back: Smooth wood with four small cushioned pads to protect wall/other surfaces; brass hook for wall hanging.", 
+                "7.5 in. x 7.5 in.",
+                "Stand not included",
+                "Available by special order only"     
+                ]
+        },{
+            "title": "Duck Trivet (Canvasback)",
+            "image": "images/ducks/TrivetCanvasbackSQ.png",
+            "bullets": [
+                "Handsome wood trivet that can be used as a trivet, wall hanging, or a collectible on a stand (as shown).",
+                "Trivet back: Smooth wood with four small cushioned pads to protect wall/other surfaces; brass hook for wall hanging.", 
+                "7.5 in. x 7.5 in.",
+                "Stand not included",
+                "Available by special order only"
+                ]
         }
     ],
     "boats":[{

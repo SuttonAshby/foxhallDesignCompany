@@ -34,6 +34,8 @@ multiple images for single listItem
 
 more uniform images for carousel and item list
 
+add footer
+
 product display
     image maybe carousel
     title and about
