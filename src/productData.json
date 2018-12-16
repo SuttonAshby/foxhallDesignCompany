@@ -213,16 +213,6 @@
         }
     ],
     "boats":[{
-        "title": "Exquisite 12-Piece Place Setting",
-        "image": "images/boats/12PlateBoatsSQ.png",
-        "bullets": [
-            "Heirloom-quality china with double gold band.",
-            "Desirable rim shape plates.", 
-            "Six dinner plates. 10 5/8 in.",
-            "Six salad/dessert plates. 8 1/2 in.",
-            "Dishwasher-safe. (Hand-washing recommended.)"    
-            ]
-        },{
         "title": "Chesapeake Bay Wooden Boats Presentation Bowl",
         "image": "images/boats/BowlBugeyeSQ.png",
         "bullets": [
@@ -241,7 +231,18 @@
             "Size: 2ft. x 8 ft.",
             "Only available in a vertical style"  
             ]
-            }
+        },{
+            "title": "Exquisite 12-Piece Place Setting",
+            "image": "images/boats/12PlateBoatsSQ.png",
+            "bullets": [
+                "Heirloom-quality china with double gold band.",
+                "Desirable rim shape plates.", 
+                "Six dinner plates. 10 5/8 in.",
+                "Six salad/dessert plates. 8 1/2 in.",
+                "Dishwasher-safe. (Hand-washing recommended.)",
+                "Only available by special order"    
+                ]
+        }
     ],
     "chesapeake":[{
         "title": "Chesapeake Country Welcome Mat",
