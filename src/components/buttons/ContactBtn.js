@@ -91,8 +91,6 @@ class ContactBtn extends React.Component {
             onClose={this.handleClose}
           >
             <div 
-              // style={getModalStyle()} 
-              // className={classes.paper}
               style={styles.modal}
               >
               <Typography variant="h6" id="modal-title">
