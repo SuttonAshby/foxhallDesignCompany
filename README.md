@@ -29,6 +29,9 @@ map product button
 bezel edges of contact modal and image modal
     and shadow box
 
+multiple images for single listItem
+    find bay mom and and espresso images
+
 product display
     image maybe carousel
     title and about

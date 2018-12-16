@@ -80,13 +80,51 @@
         }
     ],
     "bay":[{
-        "title": "Chesapeake Country Welcome Mat",
-        "image": "images/chesapeake/CCMatSQ.png",
+        "title": "Bay Dude",
+        "image": "images/bay/BayDudeNavySQ.png",
         "bullets": [
-            "100% Natural Coir, a renewable & sustainable resource.",
-            "This top quality doormat is made of the finest fibers to withstand all weather elements.", 
-            "Made exclusively for Foxhall.",
-            "18\"x30\", 0.6\" Thick"   
+            "100% cotton twill",
+            "Unstructured low profile", 
+            "Velcro back closure",
+            "Available in Navy or Espresso"   
+            ]    
+    }, {
+        "title": "Bay Babe",
+        "image": "images/bay/BayBabeEspressoSQ.png",
+        "bullets": [
+            "100% cotton twill",
+            "Unstructured low profile", 
+            "Velcro back closure",
+            "Available in Navy or Espresso"   
+            ]    
+    },  {
+        "title": "Bay Kid",
+        "image": "images/bay/BayKidNavySQ.png",
+        "bullets": [
+            "100% cotton twill",
+            "Unstructured low profile", 
+            "Velcro back closure",
+            "Available in Navy"   
+            ]    
+    }, {
+        "title": "Bay Mom",
+        "image": "images/bay/BayMomSQ.png",
+        "bullets": [
+            "100% cotton twill",
+            "Unstructured low profile", 
+            "Velcro back closure",
+            "Contrasting sandwich bill available in navy only",
+            "Available in Navy or Espresso"   
+            ]    
+    }, {
+        "title": "Bay Dad",
+        "image": "images/bay/BayDadSQ.png",
+        "bullets": [
+            "100% cotton twill",
+            "Unstructured low profile", 
+            "Velcro back closure",
+            "Contrasting sandwich bill available in navy only",
+            "Available in Navy or Espresso"   
             ]    
     }
     ]
