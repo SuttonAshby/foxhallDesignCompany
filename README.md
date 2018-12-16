@@ -34,7 +34,9 @@ multiple images for single listItem
 
 more uniform images for carousel and item list
 
+add padding to product pages
 add footer
+reduce trivet file size
 
 product display
     image maybe carousel
