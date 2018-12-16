@@ -7,12 +7,12 @@ import data from '../productData.json';
 const ProductBay = () => {
     return (
         <ProductPage 
-        imageOne={dataCarousel.boats[0].image}
-        imageTwo={dataCarousel.boats[1].image}
-        imageThree={dataCarousel.boats[2].image}
+        imageOne={dataCarousel.bay[0].image}
+        imageTwo={dataCarousel.bay[1].image}
+        imageThree={dataCarousel.bay[2].image}
         title="Bay Family"
         about="bla bla blas"
-        data={data.boats}
+        data={data.bay}
         />
     )
 }
