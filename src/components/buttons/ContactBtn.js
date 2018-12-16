@@ -22,19 +22,44 @@ function rand() {
     };
   }
   
-  const styles = theme => ({
-    paper: {
-      position: 'absolute',
-      width: theme.spacing.unit * 50,
-      backgroundColor: theme.palette.background.paper,
-      boxShadow: theme.shadows[5],
-      padding: theme.spacing.unit * 4,
-    },
-    button:{
-      backgroundColor: 'rgba(255, 255, 255, .4)'
-  }   
+  // const styles = theme => ({
+  //   paper: {
+  //     position: 'absolute',
+  //     width: theme.spacing.unit * 50,
+  //     backgroundColor: theme.palette.background.paper,
+  //     boxShadow: theme.shadows[5],
+  //     padding: theme.spacing.unit * 4,
+  //   },
+  //   button:{
+  //     backgroundColor: 'rgba(255, 255, 255, .4)'
+  //   },
+  //   modal: {
+  //     position: 'absolute',
+  //     transform: `translate(-50%, -50%)`,
+  //     top:"50%",
+  //     left:"50%",
+  //     height: 500,
+  //     width: 500
+  //   }   
 
-  });
+  // });
+
+  const styles = {
+    button: {
+      backgroundColor: 'rgba(255, 255, 255, .4)'
+    },
+    modal: {
+      position: 'absolute',
+      transform: `translate(-50%, -50%)`,
+      top:"50%",
+      left:"50%",
+      width: "50%",
+      backgroundColor: 'rgba(255, 255, 255, 1)'
+    }   
+
+  };
+
+
 
 
 class ContactBtn extends React.Component {
@@ -56,6 +81,7 @@ class ContactBtn extends React.Component {
       return (
         <div>
           <Button
+            style={styles.button}
             variant="outlined"
             onClick={this.handleOpen}>Contact</Button>
           <Modal
@@ -64,7 +90,11 @@ class ContactBtn extends React.Component {
             open={this.state.open}
             onClose={this.handleClose}
           >
-            <div style={getModalStyle()} className={classes.paper}>
+            <div 
+              // style={getModalStyle()} 
+              // className={classes.paper}
+              style={styles.modal}
+              >
               <Typography variant="h6" id="modal-title">
                 Contact Us
               </Typography>
@@ -75,11 +105,13 @@ class ContactBtn extends React.Component {
       );
     }
   }
-  ContactBtn.propTypes = {
-    classes: PropTypes.object.isRequired,
-  };
+  // ContactBtn.propTypes = {
+  //   classes: PropTypes.object.isRequired,
+  // };
   
-  // We need an intermediary variable for handling the recursive nesting.
-  const ContactBtnWrapped = withStyles(styles)(ContactBtn);
+  // // We need an intermediary variable for handling the recursive nesting.
+  // const ContactBtnWrapped = withStyles(styles)(ContactBtn);
   
-  export default ContactBtnWrapped;
+  // export default ContactBtnWrapped;
+
+  export default ContactBtn;
