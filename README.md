@@ -32,6 +32,8 @@ bezel edges of contact modal and image modal
 multiple images for single listItem
     find bay mom and and espresso images
 
+more uniform images for carousel and item list
+
 product display
     image maybe carousel
     title and about

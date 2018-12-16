@@ -1,15 +1,5 @@
 {
     "ducks":[{
-        "title": "Exquisite 12-Piece Place Setting",
-        "image": "images/ducks/12PlatesDucks.png",
-        "bullets": [
-            "Heirloom-quality china with double gold band.",
-            "Desirable rim shape plates.", 
-            "Six dinner plates. 10 5/8 in.",
-            "Six salad/dessert plates. 8 1/2 in.",
-            "Dishwasher-safe. (Hand-washing recommended.)"      
-            ]
-        },{
         "title": "Duck Presentation Bowl",
         "image": "images/ducks/BowlDuckSQ.png",
         "bullets": [
@@ -27,13 +17,33 @@
             "Size: 2ft. x 8 ft."  
             ]
         },{
-        "title": "North American Duck Runner (Horizontal)",
-        "image": "images/ducks/DuckRunnerH.png",
+        "title": "North American Duck Runner (Vertical)",
+        "image": "images/ducks/DuckRunnerV.png",
         "bullets": [
             "Attractive pebble background with a double border.",
             "Outstanding wear performance.",
             "Made of premium grade nylon with stain-resistant Teflon.",
             "Size: 2ft. x 8 ft."  
+            ]
+        },{
+            "title": "Duck Wooden Box (Goldeneye)",
+            "image": "images/ducks/BoxGoldenEyeSQ.png",
+            "bullets": [
+                "Handsome wood box with tile on top.",
+                "Tan felt lining protects objects in box.", 
+                "A perfect box for loose coins, stamps, and other items.",
+                "Hinged lid.",
+                "Ht. 5 in. Depth: 3 in."      
+                ]
+        }, {
+        "title": "Exquisite 12-Piece Place Setting",
+        "image": "images/ducks/12PlatesDucks.png",
+        "bullets": [
+            "Heirloom-quality china with double gold band.",
+            "Desirable rim shape plates.", 
+            "Six dinner plates. 10 5/8 in.",
+            "Six salad/dessert plates. 8 1/2 in.",
+            "Dishwasher-safe. (Hand-washing recommended.)"      
             ]
         }
     ],
