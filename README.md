@@ -30,7 +30,7 @@ bezel edges of contact modal and image modal
     and shadow box
 
 multiple images for single listItem
-    find bay mom and and espresso images
+    find bay mom and and espresso images * DONE
 
 more uniform images for carousel and item list
 

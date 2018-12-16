@@ -232,15 +232,190 @@
             "Only available in a vertical style"  
             ]
         },{
-            "title": "Exquisite 12-Piece Place Setting",
-            "image": "images/boats/12PlateBoatsSQ.png",
+            "title": "Boat Wooden Box (Bugeye: Gypsy)",
+            "image": "images/boats/BoxBugeyeSQ.png",
             "bullets": [
-                "Heirloom-quality china with double gold band.",
-                "Desirable rim shape plates.", 
-                "Six dinner plates. 10 5/8 in.",
-                "Six salad/dessert plates. 8 1/2 in.",
-                "Dishwasher-safe. (Hand-washing recommended.)",
-                "Only available by special order"    
+                "Handsome wood box with tile on top.",
+                "Tan felt lining protects objects in box.", 
+                "A perfect box for loose coins, stamps, and other items.",
+                "Hinged lid.",
+                "Ht. 5 in. Depth: 3 in.",
+                "Rectangular Box only for the Bugeye. 8.5 x 5 inches."
+                ]
+        },{
+            "title": "Boat Wooden Box (Sloop: Frances)",
+            "image": "images/boats/BoxSloopSQ.png",
+            "bullets": [
+                "Handsome wood box with tile on top.",
+                "Tan felt lining protects objects in box.", 
+                "A perfect box for loose coins, stamps, and other items.",
+                "Hinged lid.",
+                "Ht. 5 in. Depth: 3 in."
+                ]
+        },{
+            "title": "Boat Wooden Box (Skipjack: A. Phillips)",
+            "image": "images/boats/BoxSkipjackSQ.png",
+            "bullets": [
+                "Handsome wood box with tile on top.",
+                "Tan felt lining protects objects in box.", 
+                "A perfect box for loose coins, stamps, and other items.",
+                "Hinged lid.",
+                "Ht. 5 in. Depth: 3 in."
+                ]
+        },{
+            "title": "Boat Wooden Box (Log Canoe: Margrette Hall)",
+            "image": "images/boats/BoxLogCanoeSQ.png",
+            "bullets": [
+                "Handsome wood box with tile on top.",
+                "Tan felt lining protects objects in box.", 
+                "A perfect box for loose coins, stamps, and other items.",
+                "Hinged lid.",
+                "Ht. 5 in. Depth: 3 in."
+                ]
+        },{
+            "title": "Boat Wooden Box (Schooner: Elsie M. Reichert)",
+            "image": "images/boats/BoxSchoonerSQ.png",
+            "bullets": [
+                "Handsome wood box with tile on top.",
+                "Tan felt lining protects objects in box.", 
+                "A perfect box for loose coins, stamps, and other items.",
+                "Hinged lid.",
+                "Ht. 5 in. Depth: 3 in."
+                ]
+        },{
+            "title": "Boat Wooden Box (Scow: Elsie)",
+            "image": "images/boats/BoxScowSQ.png",
+            "bullets": [
+                "Handsome wood box with tile on top.",
+                "Tan felt lining protects objects in box.", 
+                "A perfect box for loose coins, stamps, and other items.",
+                "Hinged lid.",
+                "Ht. 5 in. Depth: 3 in."
+                ]
+        },{
+            "title": "Boat Stein (Bugeye: Gypsy)",
+            "image": "images/boats/SteinBugeyeSQ.png",
+            "bullets": [
+                "Traditional Beer Stein 32 oz.",
+                "Top-quality ceramic ware.",
+                "Color: White",
+                "Ht. 6 3/8 in."
+                ]
+        },{
+            "title": "Boat Stein (Sloop: Frances)",
+            "image": "images/boats/SteinSloopSQ.png",
+            "bullets": [
+                "Traditional Beer Stein 32 oz.",
+                "Top-quality ceramic ware.",
+                "Color: White",
+                "Ht. 6 3/8 in."
+                ]
+        },{
+            "title": "Boat Stein (Skipjack: A. Phillips)",
+            "image": "images/boats/SteinSkipjackSQ.png",
+            "bullets": [
+                "Traditional Beer Stein 32 oz.",
+                "Top-quality ceramic ware.",
+                "Color: White",
+                "Ht. 6 3/8 in."
+                ]
+        },{
+            "title": "Boat Stein (Log Canoe: Margrette Hall)",
+            "image": "images/boats/SteinLogCanoeSQ.png",
+            "bullets": [
+                "Traditional Beer Stein 32 oz.",
+                "Top-quality ceramic ware.",
+                "Color: White",
+                "Ht. 6 3/8 in."
+                ]
+        },{
+            "title": "Boat Stein (Schooner: Elsie M. Reichert)",
+            "image": "images/boats/SteinSchoonerSQ.png",
+            "bullets": [
+                "Traditional Beer Stein 32 oz.",
+                "Top-quality ceramic ware.",
+                "Color: White",
+                "Ht. 6 3/8 in."
+                ]
+        },{
+            "title": "Boat Stein (Scow: Elsie)",
+            "image": "images/boats/SteinScowSQ.png",
+            "bullets": [
+                "Traditional Beer Stein 32 oz.",
+                "Top-quality ceramic ware.",
+                "Color: White",
+                "Ht. 6 3/8 in."
+                ]
+        },{
+        "title": "Exquisite 12-Piece Place Setting",
+        "image": "images/boats/12PlateBoatsSQ.png",
+        "bullets": [
+            "Heirloom-quality china with double gold band.",
+            "Desirable rim shape plates.", 
+            "Six dinner plates. 10 5/8 in.",
+            "Six salad/dessert plates. 8 1/2 in.",
+            "Dishwasher-safe. (Hand-washing recommended.)",
+            "Only available by special order"    
+            ]
+        },{
+            "title": "Boat Trivet (Bugeye: Gypsy)",
+            "image": "images/boats/TrivetBugeyeSQ.png",
+            "bullets": [
+                "Handsome wood trivet that can be used as a trivet, wall hanging, or a collectible on a stand (as shown).",
+                "Trivet back: Smooth wood with four small cushioned pads to protect wall/other surfaces; brass hook for wall hanging.", 
+                "7.5 in. x 7.5 in.",
+                "Stand not included",
+                "Available by special order only"
+                ]
+        },{
+            "title": "Boat Trivet (Sloop: Frances)",
+            "image": "images/boats/TrivetSloopSQ.png",
+            "bullets": [
+                "Handsome wood trivet that can be used as a trivet, wall hanging, or a collectible on a stand (as shown).",
+                "Trivet back: Smooth wood with four small cushioned pads to protect wall/other surfaces; brass hook for wall hanging.", 
+                "7.5 in. x 7.5 in.",
+                "Stand not included",
+                "Available by special order only"
+                ]
+        },{
+            "title": "Boat Trivet (Skipjack: A. Phillips)",
+            "image": "images/boats/TrivetSkipjackSQ.png",
+            "bullets": [
+                "Handsome wood trivet that can be used as a trivet, wall hanging, or a collectible on a stand (as shown).",
+                "Trivet back: Smooth wood with four small cushioned pads to protect wall/other surfaces; brass hook for wall hanging.", 
+                "7.5 in. x 7.5 in.",
+                "Stand not included",
+                "Available by special order only"
+                ]
+        },{
+            "title": "Boat Trivet (Log Canoe: Margrette Hall)",
+            "image": "images/boats/TrivetLogCanoeSQ.png",
+            "bullets": [
+                "Handsome wood trivet that can be used as a trivet, wall hanging, or a collectible on a stand (as shown).",
+                "Trivet back: Smooth wood with four small cushioned pads to protect wall/other surfaces; brass hook for wall hanging.", 
+                "7.5 in. x 7.5 in.",
+                "Stand not included",
+                "Available by special order only"
+                ]
+        },{
+            "title": "Boat Trivet (Schooner: Elsie M. Reichert)",
+            "image": "images/boats/TrivetSchoonerSQ.png",
+            "bullets": [
+                "Handsome wood trivet that can be used as a trivet, wall hanging, or a collectible on a stand (as shown).",
+                "Trivet back: Smooth wood with four small cushioned pads to protect wall/other surfaces; brass hook for wall hanging.", 
+                "7.5 in. x 7.5 in.",
+                "Stand not included",
+                "Available by special order only"
+                ]
+        },{
+            "title": "Boat Trivet (Scow: Elsie)",
+            "image": "images/boats/TrivetScowSQ.png",
+            "bullets": [
+                "Handsome wood trivet that can be used as a trivet, wall hanging, or a collectible on a stand (as shown).",
+                "Trivet back: Smooth wood with four small cushioned pads to protect wall/other surfaces; brass hook for wall hanging.", 
+                "7.5 in. x 7.5 in.",
+                "Stand not included",
+                "Available by special order only"
                 ]
         }
     ],
