@@ -9,7 +9,7 @@ const CustomPage = () => {
                 <Typography
                     variant="h5"
                     align="left">
-                    About Us    
+                    Custom Products    
                 </Typography>
                 <Typography
                     variant="body1"

@@ -4,9 +4,16 @@ import { Link } from 'react-router-dom'
 
 const CustomLink = props => <Link to="/custom" {...props} />
 
+const styles = {
+    button:{
+        backgroundColor: 'rgba(255, 255, 255, .4)'
+    }    
+}
+
 const CustomBtn = props => {
     return (
         <Button 
+            style={styles.button}
             variant="outlined"
             component={CustomLink}
             >

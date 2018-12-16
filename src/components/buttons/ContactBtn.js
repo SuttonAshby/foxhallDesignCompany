@@ -30,6 +30,10 @@ function rand() {
       boxShadow: theme.shadows[5],
       padding: theme.spacing.unit * 4,
     },
+    button:{
+      backgroundColor: 'rgba(255, 255, 255, .4)'
+  }   
+
   });
 
 
