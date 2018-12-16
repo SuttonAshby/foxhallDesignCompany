@@ -26,6 +26,9 @@ add modal to list item images*DONE
 
 map product button
 
+bezel edges of contact modal and image modal
+    and shadow box
+
 product display
     image maybe carousel
     title and about

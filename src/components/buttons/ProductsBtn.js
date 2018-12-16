@@ -25,9 +25,15 @@ class ProductsBtn extends React.Component {
 
     render(){
         const {anchorEl} = this.state;
+        const styles = {
+            button:{
+                backgroundColor: 'rgba(255, 255, 255, .4)'
+            }   
+        }
         return (
             <div>
                 <Button
+                    style={styles.button}
                     variant="outlined"
                     aria-owns={anchorEl ? 'drop-button' : undefined}
                     aria-haspopup='true'
