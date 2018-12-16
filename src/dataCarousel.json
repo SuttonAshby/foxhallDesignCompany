@@ -38,13 +38,13 @@
     "bay": [
         {
             "key": 0,
-            "image": "images/chesapeake/CCMatSQ.png"
+            "image": "images/bay/BayDudeEspressoSQ.png"
         }, {  
             "key": 1,
-            "image": "images/chesapeake/CCJute.png" 
+            "image": "images/bay/BayMomSQ.png" 
         }, {
             "key": 2,
-            "image": "images/chesapeake/CCEspressoCapSQ.png"
+            "image": "images/bay/BayKidNavySQ.png"
         }
     ]
 } 
