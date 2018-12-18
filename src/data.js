@@ -29,7 +29,7 @@ const data = [
     {
         key: 3,
         id: "bay",
-        image: "images/chesapeake/CCmat-SQ-Op.png",
+        image: "images/bay/BayDudeNavySQ.png",
         title: "Bay Family",
         blurb: "Lorum Ipsum",
         link:  (props = {}) => <Link to="/bay" {...props} />  

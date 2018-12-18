@@ -4,7 +4,9 @@ import { withStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import Modal from '@material-ui/core/Modal';
 import Button from '@material-ui/core/Button';
-import ContactForm from '../ContactForm.js'
+import ContactForm from '../ContactForm.js';
+import Paper from '@material-ui/core/Paper';
+import spacing from '@material-ui/core/styles/spacing';
 
 
 function rand() {
@@ -54,7 +56,7 @@ function rand() {
       top:"50%",
       left:"50%",
       width: "50%",
-      backgroundColor: 'rgba(255, 255, 255, 1)'
+      padding: spacing.unit * 4
     }   
 
   };
@@ -90,14 +92,14 @@ class ContactBtn extends React.Component {
             open={this.state.open}
             onClose={this.handleClose}
           >
-            <div 
+            <Paper 
               style={styles.modal}
               >
               <Typography variant="h6" id="modal-title">
                 Contact Us
               </Typography>
               <ContactForm />
-            </div>
+            </Paper>
           </Modal>
         </div>
       );

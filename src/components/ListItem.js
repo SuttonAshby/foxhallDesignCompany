@@ -5,6 +5,9 @@ import React from 'react';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import Modal from '@material-ui/core/Modal';
+import Paper from '@material-ui/core/Paper';
+import spacing from '@material-ui/core/styles/spacing';
+
 
 
   const styles = {
@@ -22,6 +25,7 @@ import Modal from '@material-ui/core/Modal';
         transform: `translate(-50%, -50%)`,
         top:"50%",
         left:"50%",
+        padding: spacing.unit * 2
     }
   };
 
@@ -70,9 +74,9 @@ class ListItem extends React.Component {
             // aria-describedby="simple-modal-description"
             open={this.state.open}
             onClose={this.handleClose}>
-            <div style={styles.modal}>
+            <Paper style={styles.modal}>
                 <img style={styles.display} src={this.props.image} />
-            </div>
+            </Paper>
         </Modal>    
         </div>
     )
