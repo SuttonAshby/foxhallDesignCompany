@@ -38,6 +38,7 @@ add padding to product pages
 add footer
 reduce trivet file size
 on hover list item photos change cursor
+150 minimum
 
 product display
     image maybe carousel
