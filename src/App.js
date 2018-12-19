@@ -8,6 +8,7 @@ import ProductDucks from './pages/ProductDucks.js';
 import ProductBoats from './pages/ProductBoats.js';
 import ProductChesapeake from './pages/ProductChesapeake.js';
 import ProductBay from './pages/ProductBay.js';
+import Footer from './components/Footer.js';
 
  const App = () => (
   <Router>
@@ -20,6 +21,7 @@ import ProductBay from './pages/ProductBay.js';
       <Route exact path="/boats" component={ProductBoats} />
       <Route exact path="/chesapeake" component={ProductChesapeake} />
       <Route exact path="/bay" component={ProductBay} />
+      <Footer />
     </div>
   </Router>
 )
