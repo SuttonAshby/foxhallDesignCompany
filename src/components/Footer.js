@@ -1,7 +1,5 @@
 import React from 'react';
-import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
-import { Grid } from '@material-ui/core';
 
 const styles = {
     footer: {
@@ -18,12 +16,12 @@ const styles = {
 
 const Footer = props => {
     return (
-    <Paper style={styles.footer}>
+    <div style={styles.footer}>
             <Typography
                 style={styles.text}>
                     &#169; 2018  Sutton Ashby
                 </Typography>
-    </Paper>
+    </div>
     )
 }
 
