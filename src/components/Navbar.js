@@ -8,7 +8,8 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import { Grid } from '@material-ui/core';
 import { Link } from 'react-router-dom';
-import Banner from  '../images/banner.jpg'
+import Banner from  '../images/banner.jpg';
+import CollapseBtn from './buttons/CollapseBtn.js'
 
 
 const HomeLink = props => <Link to="/" {...props} />
