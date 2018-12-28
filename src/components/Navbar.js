@@ -1,15 +1,16 @@
 import React from 'react';
-import Logo from '../images/logo.jpg'
-import ProductsBtn from './buttons/ProductsBtn.js'
-import ContactBtn from './buttons/ContactBtn.js'
-import AboutBtn from './buttons/AboutBtn.js'
-import CustomBtn from './buttons/CustomBtn.js'
+import Logo from '../images/logo.jpg';
+import ProductsBtn from './buttons/ProductsBtn.js';
+import ContactBtn from './buttons/ContactBtn.js';
+import AboutBtn from './buttons/AboutBtn.js';
+import CustomBtn from './buttons/CustomBtn.js';
+import CollapseBtn from './buttons/CollapseBtn.js';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import { Grid } from '@material-ui/core';
 import { Link } from 'react-router-dom';
 import Banner from  '../images/banner.jpg';
-import CollapseBtn from './buttons/CollapseBtn.js'
+
 
 
 const HomeLink = props => <Link to="/" {...props} />
@@ -53,6 +54,9 @@ const Navbar = props => {
                             </Grid>
                             <Grid item>
                                 <CustomBtn/>
+                            </Grid>
+                            <Grid item>
+                                <CollapseBtn/>
                             </Grid>
                         </Grid> 
                     </Grid>

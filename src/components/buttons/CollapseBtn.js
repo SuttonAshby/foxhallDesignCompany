@@ -2,7 +2,8 @@ import React from 'react';
 import Button from '@material-ui/core/Button';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import MenuIcon from '@material-ui/icons/Menu';
 
 const LinkProductDucks = props => <Link to="/ducks" {...props} />
 const LinkProductBoats = props => <Link to="/boats" {...props} />
@@ -39,7 +40,7 @@ class CollaspeBtn extends React.Component {
                     aria-haspopup='true'
                     onClick={this.handleClick}
                 >
-                Products
+                <MenuIcon />
                 </Button>
                     <Menu
                         id='drop-button'
