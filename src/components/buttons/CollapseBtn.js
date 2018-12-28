@@ -5,10 +5,15 @@ import MenuItem from '@material-ui/core/MenuItem';
 import { Link } from 'react-router-dom';
 import MenuIcon from '@material-ui/icons/Menu';
 
+import AboutBtn from './AboutBtn.js';
+
+
 const LinkProductDucks = props => <Link to="/ducks" {...props} />
 const LinkProductBoats = props => <Link to="/boats" {...props} />
 const LinkProductChesapeake = props => <Link to="/chesapeake" {...props} />
 const LinkProductBay = props => <Link to="/bay" {...props} />
+const AboutLink = props => <Link to="/about" {...props} />
+const CustomLink = props => <Link to="/custom" {...props} />
 
 class CollaspeBtn extends React.Component {
     state = {
@@ -48,6 +53,15 @@ class CollaspeBtn extends React.Component {
                         open={Boolean(anchorEl)}
                         onClose={this.handleClose}
                     >
+                        <MenuItem
+                            onClick={this.handleClose}
+                            component={AboutLink}>About</MenuItem>
+                        <MenuItem
+                            onClick={this.handleClose}
+                            component={CustomLink}>Custom Products</MenuItem>
+                        <MenuItem
+                            disabled
+                        >PRODUCTS</MenuItem>
                         <MenuItem
                             onClick={this.handleClose}
                             component={LinkProductDucks}>Ducks of America</MenuItem>

@@ -40,7 +40,7 @@ const Navbar = props => {
                         </Grid>
                         <Grid item xs={3}>
                         </Grid>
-                            { window.innerWidth > 600 ?
+                            { window.innerWidth > 1007 ?
                         <Grid xs={6} container item 
                         justify="space-around"
                         alignItems="center">
