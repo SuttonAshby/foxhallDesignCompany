@@ -40,9 +40,10 @@ const Navbar = props => {
                         </Grid>
                         <Grid item xs={3}>
                         </Grid>
+                            { window.innerWidth > 600 ?
                         <Grid xs={6} container item 
-                            justify="space-around"
-                            alignItems="center">
+                        justify="space-around"
+                        alignItems="center">
                             <Grid item>
                                 <ProductsBtn/>
                             </Grid>
@@ -54,11 +55,15 @@ const Navbar = props => {
                             </Grid>
                             <Grid item>
                                 <CustomBtn/>
-                            </Grid>
+                            </Grid>   
+                        </Grid> :
+                        <Grid xs={6} container item 
+                        justify="flex-end"
+                        alignItems="center">
                             <Grid item>
                                 <CollapseBtn/>
                             </Grid>
-                        </Grid> 
+                        </Grid> }
                     </Grid>
                 </Toolbar>
             </AppBar>
