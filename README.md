@@ -7,7 +7,7 @@ TODOS
 Priority - before launch
 CONTENT
     footer
-    product splashs
+    product splashes
     product page
     custom products
         don't include mug
