@@ -19,8 +19,8 @@ const Footer = props => {
     <div style={styles.footer}>
             <Typography
                 style={styles.text}>
-                    &#169; 2018  Sutton Ashby
-                </Typography>
+                    &#169; Foxhall Design Company 2018 | Website by Sutton Ashby
+            </Typography>
     </div>
     )
 }
