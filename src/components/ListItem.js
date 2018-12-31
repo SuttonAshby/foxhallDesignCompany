@@ -14,6 +14,7 @@ import spacing from '@material-ui/core/styles/spacing';
     icon:{
         height: 250,
         width: 250,
+        minWidth:250
     },
     display:{
         width: "100%",
@@ -26,6 +27,10 @@ import spacing from '@material-ui/core/styles/spacing';
         top:"50%",
         left:"50%",
         padding: spacing.unit * 2
+    },
+    page:{
+        paddingLeft: "10vw",
+        paddingRight: "10vw"
     }
   };
 
@@ -51,24 +56,36 @@ class ListItem extends React.Component {
 
     return (
         <div>
-            <Grid container xs={12}>
-                <Grid item md={3} sm={12}
+            {/* <Paper> */}
+            <Grid container xs={12}
+                style={styles.page}
+             justify="center"
+             >
+                <Grid item sm={6} 
+                // md={3}
+                    style={styles.icon}
+                    // justify="center"
                     onClick={this.handleOpen}>
                     <img style={styles.icon} src={this.props.image} />
                 </Grid>
-                <Grid item md={9} sm={12}>
-                <Typography
+                <Grid item sm={6}
+                //  md={9}
+                 >
+                    <Typography
+                        justify="center"
                         variant="h6"
                         align="left">
                             {this.props.title}
                     </Typography>        
                     <Typography
+                        // justify="center"
                         variant="body1"
                         align="left">
                             <ul>{bulleted}</ul>
                     </Typography>
                 </Grid>
             </Grid>
+            {/* </Paper> */}
         <Modal
             // aria-labelledby="simple-modal-title"
             // aria-describedby="simple-modal-description"
