@@ -98,6 +98,11 @@ class ContactBtn extends React.Component {
               <Typography variant="h6" id="modal-title">
                 Contact Us
               </Typography>
+              <Typography
+                variant="body1"
+                align="left">
+                Our minimum order is 150USD.
+              </Typography>
               <ContactForm />
             </Paper>
           </Modal>

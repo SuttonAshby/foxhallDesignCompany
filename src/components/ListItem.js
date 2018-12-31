@@ -52,11 +52,11 @@ class ListItem extends React.Component {
     return (
         <div>
             <Grid container xs={12}>
-                <Grid item xs={3}
+                <Grid item md={3} sm={12}
                     onClick={this.handleOpen}>
                     <img style={styles.icon} src={this.props.image} />
                 </Grid>
-                <Grid item xs={9}>
+                <Grid item md={9} sm={12}>
                 <Typography
                         variant="h6"
                         align="left">
