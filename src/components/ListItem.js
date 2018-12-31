@@ -56,9 +56,9 @@ class ListItem extends React.Component {
 
     return (
         <div>
-            {/* <Paper> */}
+            <Paper  style={styles.page}>
             <Grid container xs={12}
-                style={styles.page}
+                // style={styles.page}
              justify="center"
              >
                 <Grid item sm={6} 
@@ -85,7 +85,7 @@ class ListItem extends React.Component {
                     </Typography>
                 </Grid>
             </Grid>
-            {/* </Paper> */}
+            </Paper>
         <Modal
             // aria-labelledby="simple-modal-title"
             // aria-describedby="simple-modal-description"
