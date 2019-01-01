@@ -31,6 +31,11 @@ import spacing from '@material-ui/core/styles/spacing';
     page:{
         paddingLeft: "10vw",
         paddingRight: "10vw"
+    },
+    paper:{
+        marginLeft: "10vw",
+        marginRight: "10vw",
+        marginBottom: 10
     }
   };
 
@@ -56,7 +61,7 @@ class ListItem extends React.Component {
 
     return (
         <div>
-            <Paper  style={styles.page}>
+            <Paper  style={styles.paper}>
             <Grid container xs={12}
                 // style={styles.page}
              justify="center"
