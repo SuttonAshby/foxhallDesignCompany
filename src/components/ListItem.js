@@ -14,7 +14,8 @@ import spacing from '@material-ui/core/styles/spacing';
     icon:{
         height: 250,
         width: 250,
-        minWidth:250
+        minWidth:250,
+        cursor: "pointer"
     },
     display:{
         width: "100%",
