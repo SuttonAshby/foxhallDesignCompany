@@ -58,8 +58,11 @@ const Navbar = props => {
                             </Grid>   
                         </Grid> :
                         <Grid xs={6} container item 
-                        justify="flex-end"
+                        justify="space-around"
                         alignItems="center">
+                            <Grid item>
+                                <ContactBtn/>
+                            </Grid>
                             <Grid item>
                                 <CollapseBtn/>
                             </Grid>
