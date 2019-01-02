@@ -1,5 +1,12 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+
+const styles = {
+    Link: {
+        textDecoration: 'none'
+    }
+}
+
 
 const data = [
     {
@@ -8,7 +15,7 @@ const data = [
         image: "images/ducks/12PlatesDucks.png",
         title: "Ducks of America",
         blurb: "Lorum Ipsum",
-        link:  (props = {}) => <Link to="/ducks" {...props} />
+        link:  (props = {}) => <Link to="/ducks" style={styles.Link} {...props} />
     },
     {
         key: 1,
@@ -16,7 +23,7 @@ const data = [
         image: "images/boats/BoxScowSQ.png",
         title: "Chesapeake Bay Wooden Boats",
         blurb: "Lorum Ipsum",
-        link:  (props = {}) => <Link to="/boats" {...props} />
+        link:  (props = {}) => <Link to="/boats" style={styles.Link} {...props} />
     },
     {
         key: 2,
@@ -24,7 +31,7 @@ const data = [
         image: "images/chesapeake/CCmat-SQ-Op.png",
         title: "Chesapeake Country",
         blurb: "Lorum Ipsum",
-        link:  (props = {}) => <Link to="/chesapeake" {...props} />  
+        link:  (props = {}) => <Link to="/chesapeake" style={styles.Link} {...props} />  
     },
     {
         key: 3,
@@ -32,7 +39,7 @@ const data = [
         image: "images/bay/BayDudeNavySQ.png",
         title: "Bay Family",
         blurb: "Lorum Ipsum",
-        link:  (props = {}) => <Link to="/bay" {...props} />  
+        link:  (props = {}) => <Link to="/bay" style={styles.Link} {...props} />  
     }];
 
     export default data;
