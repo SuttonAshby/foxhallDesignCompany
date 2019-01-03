@@ -41,6 +41,7 @@ class Navbar extends Component {
     }
 
     componentDidMount(){
+        this.updateNavbar()
         window.addEventListener("resize", this.updateNavbar.bind(this))
     }
 

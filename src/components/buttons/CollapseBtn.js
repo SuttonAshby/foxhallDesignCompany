@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import MenuIcon from '@material-ui/icons/Menu';
 
 import AboutBtn from './AboutBtn.js';
+import { Typography } from '@material-ui/core';
 
 
 const LinkProductDucks = props => <Link to="/ducks" {...props} />

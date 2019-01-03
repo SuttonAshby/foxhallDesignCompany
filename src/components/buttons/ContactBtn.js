@@ -101,7 +101,7 @@ class ContactBtn extends React.Component {
               <Typography
                 variant="body1"
                 align="left">
-                Our minimum order is 150USD.
+                Our minimum order is 150 USD.
               </Typography>
               <ContactForm />
             </Paper>
