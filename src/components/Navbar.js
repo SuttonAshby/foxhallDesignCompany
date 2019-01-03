@@ -27,6 +27,27 @@ const styles = {
 }
 
 class Navbar extends Component {
+
+    state = {
+        collapsed: true
+    };
+
+    updateNavbar(){
+        if(window.innerWidth < 1007) {
+            this.setState({collapsed: false});
+        } else {
+            this.setState({collapsed: true});
+        }
+    }
+
+    componentDidMount(){
+        window.addEventListener("resize", this.updateNavbar.bind(this))
+    }
+
+    componentWillUnmount(){
+        window.removeEventListener("resize", this.updateNavbar.bind(this))    
+    }
+
     render(){
         return (
             <AppBar position='static' 
@@ -41,7 +62,7 @@ class Navbar extends Component {
                         </Grid>
                         <Grid item xs={3}>
                         </Grid>
-                            { window.innerWidth > 1007 ?
+                            { this.state.collapsed ?
                         <Grid xs={6} container item 
                         justify="space-around"
                         alignItems="center">
