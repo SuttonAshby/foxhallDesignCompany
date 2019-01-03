@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Logo from '../images/logo.jpg';
 import ProductsBtn from './buttons/ProductsBtn.js';
 import ContactBtn from './buttons/ContactBtn.js';
@@ -26,8 +26,9 @@ const styles = {
     }
 }
 
-const Navbar = props => {
-    return (
+class Navbar extends Component {
+    render(){
+        return (
             <AppBar position='static' 
                 style={styles.AppBar}>
                 <Toolbar>
@@ -70,6 +71,7 @@ const Navbar = props => {
                     </Grid>
                 </Toolbar>
             </AppBar>
-    )
+        )
+    }
 }
 export default Navbar;
