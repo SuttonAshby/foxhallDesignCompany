@@ -50,48 +50,52 @@ class Navbar extends Component {
 
     render(){
         return (
-            <AppBar position='static' 
-                style={styles.AppBar}>
-                <Toolbar>
-                    <Grid container
-                        justify="space-between"
-                    >
-                        <Grid item xs={3}
-                            component={HomeLink}>
-                            <img src={Logo} width="150" />
+            <div>
+                <AppBar position='fixed' 
+                    style={styles.AppBar}>
+                    <Toolbar>
+                        <Grid container
+                            justify="space-between"
+                        >
+                            <Grid item xs={3}
+                                component={HomeLink}>
+                                <img src={Logo} width="150" />
+                            </Grid>
+                            <Grid item xs={3}>
+                            </Grid>
+                                { this.state.collapsed ?
+                            <Grid xs={6} container item 
+                            justify="space-around"
+                            alignItems="center">
+                                <Grid item>
+                                    <ProductsBtn/>
+                                </Grid>
+                                <Grid item>
+                                    <ContactBtn/>
+                                </Grid>
+                                <Grid item>
+                                    <AboutBtn/>
+                                </Grid>
+                                <Grid item>
+                                    <CustomBtn/>
+                                </Grid>   
+                            </Grid> :
+                            <Grid xs={6} container item 
+                            justify="space-around"
+                            alignItems="center">
+                                <Grid item>
+                                    <ContactBtn/>
+                                </Grid>
+                                <Grid item>
+                                    <CollapseBtn/>
+                                </Grid>
+                            </Grid> }
                         </Grid>
-                        <Grid item xs={3}>
-                        </Grid>
-                            { this.state.collapsed ?
-                        <Grid xs={6} container item 
-                        justify="space-around"
-                        alignItems="center">
-                            <Grid item>
-                                <ProductsBtn/>
-                            </Grid>
-                            <Grid item>
-                                <ContactBtn/>
-                            </Grid>
-                            <Grid item>
-                                <AboutBtn/>
-                            </Grid>
-                            <Grid item>
-                                <CustomBtn/>
-                            </Grid>   
-                        </Grid> :
-                        <Grid xs={6} container item 
-                        justify="space-around"
-                        alignItems="center">
-                            <Grid item>
-                                <ContactBtn/>
-                            </Grid>
-                            <Grid item>
-                                <CollapseBtn/>
-                            </Grid>
-                        </Grid> }
-                    </Grid>
-                </Toolbar>
-            </AppBar>
+                    </Toolbar>
+                </AppBar>
+            <div style={{height: 108}} />
+            </div>
+            
         )
     }
 }
