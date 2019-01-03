@@ -74,7 +74,7 @@ class ListItem extends React.Component {
                     onClick={this.handleOpen}>
                     <img style={styles.icon} src={this.props.image} />
                 </Grid>
-                <Grid item sm={6}
+                <Grid item sm={6} 
                 //  md={9}
                  >
                     <Typography
@@ -84,6 +84,7 @@ class ListItem extends React.Component {
                             {this.props.title}
                     </Typography>        
                     <Typography
+                        style={{padding: 10}}
                         // justify="center"
                         variant="body1"
                         align="left">
