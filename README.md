@@ -9,16 +9,11 @@ CONTENT
     footer
     product splashes
     product page
-    custom products
-        don't include mug
-    about
-    contact minimums - 150 minimum
 set breakpoints
 activate formspree
-fix link styling for splashes
-dynamic resizing for navBar buttons
 add padding to product pages
-on hover list item photos change cursor
+finalize errors and warnings
+for more information contact us
 
 Priority - future features
 improve logo coverage
@@ -32,6 +27,7 @@ map product button
 multiple images for single listItem
 more uniform images for carousel and item list
 reduce trivet file size
+availablity bool
 
 
 trivets and place settings on special order
