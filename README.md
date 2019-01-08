@@ -9,11 +9,11 @@ CONTENT
     footer
     product splashes
     product page
-set breakpoints
 activate formspree
 add padding to product pages
 finalize errors and warnings
 for more information contact us
+QA run
 
 Priority - future features
 improve logo coverage
