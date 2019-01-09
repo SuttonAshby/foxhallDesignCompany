@@ -16,11 +16,17 @@ const ProductSplash = (props) => {
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
             position: "relative",
+        },
+        page:{
+            paddingLeft: "10vw",
+            paddingRight: "10vw",
+            textDecoration: 'none'            
         }
       };
 
     return (
         <Grid container
+            style={styles.page}
             justify="center"
             className="splash"
             key={props.key}
