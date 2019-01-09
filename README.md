@@ -28,6 +28,7 @@ multiple images for single listItem
 more uniform images for carousel and item list
 reduce trivet file size
 availablity bool
+improve comments
 
 
 trivets and place settings on special order

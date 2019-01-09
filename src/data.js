@@ -15,6 +15,7 @@ const data = [
         image: "images/ducks/12PlatesDucks.png",
         title: "Ducks of America",
         blurb: "Lorum Ipsum",
+        about: "",
         link:  (props = {}) => <Link to="/ducks" style={styles.Link} {...props} />
     },
     {
@@ -23,6 +24,7 @@ const data = [
         image: "images/boats/BoxScowSQ.png",
         title: "Chesapeake Bay Wooden Boats",
         blurb: "Lorum Ipsum",
+        about: "",
         link:  (props = {}) => <Link to="/boats" style={styles.Link} {...props} />
     },
     {
@@ -31,6 +33,7 @@ const data = [
         image: "images/chesapeake/CCmat-SQ-Op.png",
         title: "Chesapeake Country",
         blurb: "Lorum Ipsum",
+        about: "",
         link:  (props = {}) => <Link to="/chesapeake" style={styles.Link} {...props} />  
     },
     {
@@ -39,6 +42,7 @@ const data = [
         image: "images/bay/BayDudeNavySQ.png",
         title: "Bay Family",
         blurb: "Lorum Ipsum",
+        about: "",
         link:  (props = {}) => <Link to="/bay" style={styles.Link} {...props} />  
     }];
 
