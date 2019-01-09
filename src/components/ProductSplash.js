@@ -37,12 +37,13 @@ const ProductSplash = (props) => {
             </Grid>
             <Grid item sm={12}>
                 <Typography 
-                    variant="title"
+                    variant="h4"
                     align="center"
+                    gutterBottom
                     className="productLine">{props.title}
                 </Typography>
                 <Typography
-                    variant="body1"
+                    variant="h6"
                     align="center">{props.blurb}
                 </Typography>    
             </Grid>
