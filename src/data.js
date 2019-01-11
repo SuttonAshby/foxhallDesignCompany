@@ -1,11 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-// const styles = {
-//     Link: {
-//         textDecoration: 'none'
-//     }
-// }
+//Stores content for product splashes and product pages
 
 
 const data = [

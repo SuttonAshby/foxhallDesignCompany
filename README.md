@@ -10,9 +10,11 @@ CONTENT
     product splashes
     product page
 activate formspree
+adjust contact button when looking at listitems.
 add padding to product pages
 finalize errors and warnings
 for more information contact us
+adjust footer for mobile
 QA run
 
 Priority - future features

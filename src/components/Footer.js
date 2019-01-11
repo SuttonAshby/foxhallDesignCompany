@@ -14,6 +14,8 @@ const styles = {
     }
 }
 
+// need to adjust footer when under 600px
+
 const Footer = props => {
     return (
     <div style={styles.footer}>
