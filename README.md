@@ -17,6 +17,11 @@ for more information contact us
 adjust footer for mobile
 QA run
 
+changes that need confirmation
+picture choices
+button order
+navbar picture
+
 Priority - future features
 improve logo coverage
 crop for better splash images
