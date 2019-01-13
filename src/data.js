@@ -37,7 +37,12 @@ const data = [
         id: "chesapeake",
         image: "images/chesapeake/CCmat-SQ-Op.png",
         title: "Chesapeake Country",
-        blurb: "Lorum Ipsum",
+        blurb: `Chesapeake Country" is a popular slogan that 
+                captures the strong pride of people who live 
+                on the shores of the Chesapeake Bay. The rich 
+                nautical heritage of the area is reflected in 
+                the crossed-oars logo of Foxhall's Chesapeake 
+                Country collection.`,
         about: "",
         link:  (props = {}) => <Link to="/chesapeake" {...props} />  
     },
@@ -46,7 +51,15 @@ const data = [
         id: "bay",
         image: "images/bay/BayDudeNavySQ.png",
         title: "Bay Family",
-        blurb: "Lorum Ipsum",
+        blurb: `The Bay attracts the young, the old, 
+                and every age in-between.  More than a few 
+                Chesapeake families have lived here for 300 or 
+                more years. Others have just arrived. Whether 
+                you're an old-timer or a newcomer, or a 
+                vacationer to Chesapeake  Country, you're 
+                Chesapeake family.  Six ages and stages are 
+                featured in this collection: Bay Mom; Bay Dad; 
+                Bay Kid; Bay Babe; and Bay Dude.`,
         about: "",
         link:  (props = {}) => <Link to="/bay" {...props} />  
     }];
