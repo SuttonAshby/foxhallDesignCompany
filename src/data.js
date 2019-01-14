@@ -51,13 +51,8 @@ const data = [
         id: "bay",
         image: "images/bay/BayDudeNavySQ.png",
         title: "Bay Family",
-        blurb: `The Bay attracts the young, the old, 
-                and every age in-between.  More than a few 
-                Chesapeake families have lived here for 300 or 
-                more years. Others have just arrived. Whether 
-                you're an old-timer or a newcomer, or a 
-                vacationer to Chesapeake  Country, you're 
-                Chesapeake family.  Six ages and stages are 
+        blurb: `Bays attracts the young, the old, 
+                and every age in-between. Six ages and stages are 
                 featured in this collection: Bay Mom; Bay Dad; 
                 Bay Kid; Bay Babe; and Bay Dude.`,
         about: "",
