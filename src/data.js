@@ -8,7 +8,7 @@ const data = [
     {
         key: 0,
         id: "ducks",
-        image: "images/ducks/12PlatesDucks.png",
+        image: "images/ducks/12PlatesDucksWD.png",
         title: "Ducks of America",
         blurb: `Among nature’s aviators is the humble, 
                 but lovely duck. We have honored six North 
