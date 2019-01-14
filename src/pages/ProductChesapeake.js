@@ -2,6 +2,7 @@ import React from 'react';
 import ProductPage from '../components/ProductPage';
 import dataCarousel from '../dataCarousel.json';
 import data from '../productData.json';
+import splash from '../data.js'
 
 
 const ProductChesapeake = () => {
@@ -11,7 +12,7 @@ const ProductChesapeake = () => {
             imageTwo={dataCarousel.chesapeake[1].image}
             imageThree={dataCarousel.chesapeake[2].image}
             title="Chesapeake Country"
-            about="bla bla blas"
+            about={splash[2].blurb}
             data={data.chesapeake}
             />
     )

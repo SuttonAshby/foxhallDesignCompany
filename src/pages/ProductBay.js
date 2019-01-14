@@ -2,6 +2,7 @@ import React from 'react';
 import ProductPage from '../components/ProductPage';
 import dataCarousel from '../dataCarousel.json';
 import data from '../productData.json';
+import splash from '../data.js'
 
 
 const ProductBay = () => {
@@ -11,7 +12,7 @@ const ProductBay = () => {
         imageTwo={dataCarousel.bay[1].image}
         imageThree={dataCarousel.bay[2].image}
         title="Bay Family"
-        about="bla bla blas"
+        about={splash[3].blurb}
         data={data.bay}
         />
     )

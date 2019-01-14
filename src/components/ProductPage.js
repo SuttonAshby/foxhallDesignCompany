@@ -4,6 +4,15 @@ import Grid from '@material-ui/core/Grid';
 import Carousel from './Carousel';
 import ListItem from './ListItem';
 
+//Used to generate product pages.
+
+const styles = {
+    page:{
+        paddingLeft: "10vw",
+        paddingRight: "10vw",       
+    }
+}
+
 
 const ProductPage = (props) => {
 
@@ -24,26 +33,27 @@ const ProductPage = (props) => {
                 imageOne={props.imageOne}
                 imageTwo={props.imageTwo}
                 imageThree={props.imageThree} /> 
-            <Grid container>           
-                <Grid item item xs={12}>
+            <Grid container style={styles.page}>           
+                <Grid item xs={12}>
                     <Typography
-                        variant="h5"
-                        align="left">
+                        variant="h4"
+                        align="center"
+                        gutterBottom>
                         {props.title}   
                     </Typography>
                     <Typography
-                        variant="body1"
-                        align="left">
+                        variant="h6"
+                        align="justify"
+                        gutterBottom>
                         {props.about}
                     </Typography>
-                </Grid>
-            </Grid>
-            <Grid item>
-            <Typography
+                     <Typography
                         variant="h5"
-                        align="left">
-                        Product Line Item Listing   
+                        align="center"
+                        gutterBottom>
+                        <strong>For more Information Please Contact Us</strong>  
                     </Typography>
+                </Grid>            
             </Grid>
             {listItems}
         </div>

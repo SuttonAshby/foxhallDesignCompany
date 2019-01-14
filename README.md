@@ -36,6 +36,7 @@ more uniform images for carousel and item list
 reduce trivet file size
 availablity bool
 improve comments
+mobile listitems not aligning perfectly
 
 
 trivets and place settings on special order
