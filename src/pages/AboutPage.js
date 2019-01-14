@@ -24,7 +24,7 @@ const AboutPage = () => {
                     About Us    
                 </Typography>
                 <Typography
-                    variant="body1"
+                    variant="h6"
                     align="justify">
 FOXHALL DESIGN COMPANY creates extraordinary products for individuals, museum stores, nonprofits, and other organizations. 
 Anne Cole Johnston, FOXHALL’s founder and president, designed her first products for award-winning stores she created and operated in the 1980’s and 1990’s. 
@@ -39,8 +39,7 @@ In May 2015, Anne created Great Gifts Across America to showcase her discoveries
     <li>Six awards: “Top Store Sales” (The Rouse Company; The Enterprise Development Company).</li>
     <li>Three awards from the Commonwealth of Virginia: The Governor’s Cup Gold Cluster Award for Outstanding Service to the Virginia Wine Industry.</li>
     <li>Buyer’s Choice Award Winner for 2012 (The Museum Store Association).</li>
-</ul>
-FOXHALL DESIGN COMPANY is honored to be the product designer and sole distributor of Ducks of America by renowned waterfowl artist John Obolewicz. The series features the Mallard, Canvasback, Bufflehead, Wood Duck, Common Pintail, and Golden Eye.                
+</ul>                
 </Typography>
             </Grid>
         </Grid>

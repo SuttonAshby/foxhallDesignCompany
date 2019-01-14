@@ -51,7 +51,7 @@ const ProductPage = (props) => {
                         variant="h5"
                         align="center"
                         gutterBottom>
-                        <strong>For more Information Please Contact Us</strong>  
+                        <strong>For More Information, Please Contact Us.</strong>  
                     </Typography>
                 </Grid>            
             </Grid>

@@ -15,7 +15,7 @@ const data = [
                 of America by noted waterfowl artist John 
                 Obolewicz. The series features the Mallard, 
                 Canvasback, Bufflehead, Wood Duck, Common 
-                Pintail, and Golden Eye. John's paintings are in many private 
+                Pintail, and Golden Eye. John's paintings are in private 
                 collections throughout the United States. 
                 He has received numerous awards from major 
                 wildlife organizations, including the 
