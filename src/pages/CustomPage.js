@@ -26,7 +26,7 @@ const CustomPage = () => {
                     Custom Products    
                 </Typography>
                 <Typography
-                    variant="h6"
+                    variant="body1"
                     align="justify">
                     FOXHALL DESIGN COMPANY creates high-quality custom products that reflect and promote an organization’s history, excellence, and values. 
                     Many “custom” products are look-alike products of poor quality. These inferior products create an unfavorable impression of an organization and lost opportunities. 

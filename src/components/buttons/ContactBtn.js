@@ -149,7 +149,7 @@ class ContactBtn extends React.Component {
                               margin="normal"
                               />  
                       </Grid>
-                      <Grid container spacing={62} item xs="12" justify="flex-end">
+                      <Grid container item xs="12" justify="flex-end">
                         <Button onClick={this.handleClose} variant="contained">
                             Cancel
                         </Button>

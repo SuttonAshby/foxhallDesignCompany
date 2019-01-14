@@ -24,7 +24,7 @@ const AboutPage = () => {
                     About Us    
                 </Typography>
                 <Typography
-                    variant="h6"
+                    variant="body1"
                     align="justify">
 FOXHALL DESIGN COMPANY creates extraordinary products for individuals, museum stores, nonprofits, and other organizations. 
 Anne Cole Johnston, FOXHALL’s founder and president, designed her first products for award-winning stores she created and operated in the 1980’s and 1990’s. 
