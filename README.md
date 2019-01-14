@@ -5,17 +5,13 @@ Wholesale site built with React and Material UI
 TODOS
 
 Priority - before launch
-CONTENT
-    footer
-    product splashes
-    product page
 activate formspree
 adjust contact button when looking at listitems.
 add padding to product pages
 finalize errors and warnings
 for more information contact us
-adjust footer for mobile
 QA run
+adjust photo proportions for splash and carousel
 
 changes that need confirmation
 picture choices

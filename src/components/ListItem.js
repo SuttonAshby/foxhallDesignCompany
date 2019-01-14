@@ -36,7 +36,7 @@ import spacing from '@material-ui/core/styles/spacing';
     paper:{
         marginLeft: "10vw",
         marginRight: "10vw",
-        marginBottom: 10
+        marginBottom: 20
     }
   };
 

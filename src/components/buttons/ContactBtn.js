@@ -7,6 +7,8 @@ import Button from '@material-ui/core/Button';
 import ContactForm from '../ContactForm.js';
 import Paper from '@material-ui/core/Paper';
 import spacing from '@material-ui/core/styles/spacing';
+import TextField from '@material-ui/core/TextField';
+import { Grid } from '@material-ui/core';
 
 
 function rand() {
@@ -67,6 +69,8 @@ function rand() {
 class ContactBtn extends React.Component {
     state = {
       open: false,
+      email: "",
+      message: "",
     };
   
     handleOpen = () => {
@@ -76,6 +80,12 @@ class ContactBtn extends React.Component {
     handleClose = () => {
       this.setState({ open: false });
     };
+
+    handleChange = name => event => {
+      this.setState({
+          [name]: event.target.value,
+      });
+  };
   
     render() {
       const { classes } = this.props;
@@ -103,7 +113,52 @@ class ContactBtn extends React.Component {
                 align="left">
                 Our minimum order is 150 USD.
               </Typography>
-              <ContactForm />
+              {/* <ContactForm /> */}
+                <form  
+                  noValidate 
+                  autoComplete="off"
+                  method="POST"
+                  // action="https://formspree.io/foxhalldesigncompany@gmail.com"
+                  >
+                  <Grid container>
+                      <Grid item xs={12}>
+                          <TextField
+                              id="email"
+                              name="email"
+                              label="Email"
+                              placeholder="Email"
+                              defaultValue={this.state.email}
+                              onChange={this.handleChange("email")}
+                              fullWidth
+                              // className={classes.textField}
+                              margin="normal"
+                              />
+                      </Grid>
+                      <Grid item xs={12}>
+                          <TextField
+                              id="message"
+                              name="message"
+                              label="Message"
+                              multiline
+                              rows="6"
+                              fullWidth
+                              placeholder="Message"
+                              defaultValue={this.state.message}
+                              onChange={this.handleChange("multiline")}
+                              // className={classes.textField}
+                              margin="normal"
+                              />  
+                      </Grid>
+                      <Grid container spacing={62} item xs="12" justify="flex-end">
+                        <Button onClick={this.handleClose} variant="contained">
+                            Cancel
+                        </Button>
+                        <Button type="submit" variant="contained">
+                            Submit
+                        </Button>
+                      </Grid>
+                  </Grid>
+              </form>
             </Paper>
           </Modal>
         </div>
