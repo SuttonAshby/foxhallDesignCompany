@@ -105,14 +105,24 @@ class ContactBtn extends React.Component {
             <Paper 
               style={styles.modal}
               >
-              <Typography variant="h6" id="modal-title">
-                Contact Us
-              </Typography>
-              <Typography
-                variant="body1"
-                align="left">
-                For wholesale pricing and other inquiries, please email us.
-              </Typography>
+              <Grid container>
+              <Grid item xs="6">
+                <Typography variant="h6" id="modal-title">
+                  Contact Us
+                </Typography>
+              </Grid>
+              <Grid item xs="6" align="end"><Button onClick={this.handleClose}><strong>X</strong></Button></Grid>
+              <Grid item xs="12">
+                <Typography
+                  variant="body1"
+                  align="left">
+                  For wholesale pricing and other inquiries, please email us.
+                </Typography>
+              </Grid>
+
+
+              </Grid>
+
               {/* <ContactForm /> */}
                 <form  
                   noValidate 
@@ -121,19 +131,6 @@ class ContactBtn extends React.Component {
                   // action="https://formspree.io/foxhalldesigncompany@gmail.com"
                   >
                   <Grid container>
-                      <Grid item xs={12}>
-                          <TextField
-                              id="email"
-                              name="email"
-                              label="Email"
-                              placeholder="Email"
-                              defaultValue={this.state.email}
-                              onChange={this.handleChange("email")}
-                              fullWidth
-                              // className={classes.textField}
-                              margin="normal"
-                              />
-                      </Grid>
                       <Grid item xs={12}>
                           <TextField
                               id="message"
@@ -148,6 +145,19 @@ class ContactBtn extends React.Component {
                               // className={classes.textField}
                               margin="normal"
                               />  
+                      </Grid>
+                      <Grid item xs={12}>
+                          <TextField
+                              id="email"
+                              name="email"
+                              label="Your Email"
+                              placeholder="Email"
+                              defaultValue={this.state.email}
+                              onChange={this.handleChange("email")}
+                              fullWidth
+                              // className={classes.textField}
+                              margin="normal"
+                              />
                       </Grid>
                       <Grid container item xs="12" justify="flex-end">
                         <Button onClick={this.handleClose} variant="contained">
