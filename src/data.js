@@ -8,7 +8,7 @@ const data = [
     {
         key: 0,
         id: "ducks",
-        image: "images/ducks/12PlatesDucksWD.png",
+        image: "images/ducks/BowlDuckWD.png",
         title: "Ducks of America",
         blurb: `Foxhall Design Company is honored to be the 
                 product designer and sole distributor of Ducks 
@@ -29,7 +29,7 @@ const data = [
     {
         key: 1,
         id: "boats",
-        image: "images/boats/BoxScowSQ.png",
+        image: "images/boats/BoxBugeyeWD.png",
         title: "Chesapeake Bay Wooden Boats",
         blurb: `The Chesapeake Bay was once dotted with the 
                 white sails of boats built by "watermen" who 
@@ -47,7 +47,7 @@ const data = [
     {
         key: 2,
         id: "chesapeake",
-        image: "images/chesapeake/CCmat-SQ-Op.png",
+        image: "images/chesapeake/CCmatWD.png",
         title: "Chesapeake Country",
         blurb: `"Chesapeake Country" is a popular slogan that 
                 captures the strong pride of people who live 
@@ -61,7 +61,7 @@ const data = [
     {
         key: 3,
         id: "bay",
-        image: "images/bay/BayDudeNavySQ.png",
+        image: "images/bay/BayDadWD.png",
         title: "Bay Family",
         blurb: `The Chesapeake Bay attracts the young, the old, 
                 and every age in-between.  More than a few 
