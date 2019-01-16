@@ -12,6 +12,7 @@ finalize errors and warnings
 for more information contact us
 QA run
 adjust photo proportions for splash and carousel
+add 404
 
 changes that need confirmation
 picture choices
