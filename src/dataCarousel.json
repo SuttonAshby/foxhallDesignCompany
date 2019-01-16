@@ -26,25 +26,25 @@
     "chesapeake": [
         {
             "key": 0,
-            "image": "images/chesapeake/CCMatSQ.png"
+            "image": "images/chesapeake/CCNavyCapWD.png"
         }, {  
             "key": 1,
-            "image": "images/chesapeake/CCJute.png" 
+            "image": "images/chesapeake/CCMatWD.png" 
         }, {
             "key": 2,
-            "image": "images/chesapeake/CCEspressoCapSQ.png"
+            "image": "images/chesapeake/CCPonchoWD.png"
         }
     ],
     "bay": [
         {
             "key": 0,
-            "image": "images/bay/BayDudeEspressoSQ.png"
+            "image": "images/bay/BayDadWD.png"
         }, {  
             "key": 1,
-            "image": "images/bay/BayMomSQ.png" 
+            "image": "images/bay/BayMomWD.png" 
         }, {
             "key": 2,
-            "image": "images/bay/BayKidNavySQ.png"
+            "image": "images/bay/BayKidNavyWD.png"
         }
     ]
 } 
