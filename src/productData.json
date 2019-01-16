@@ -438,6 +438,16 @@
                 "Contrasting sandwich bill available in navy only",
                 "Available in Navy or Espresso"   
                 ]    
+        }, {
+            "title": "Chesapeake Country Poncho",
+            "image": "images/chesapeake/CCPonchoSQ.png",
+            "bullets": [
+                "Lightweight. Made of eco-friendly PVC-free vinyl",
+                "A smart alternative to cheap throw-away ponchos", 
+                "Waterproof with drawstring hood and snap closures for added protection from wind and rain",
+                "Comes with matching bag for easy portability and storage",
+                "Color: Navy"   
+                ]    
         }
     ],
     "bay":[{

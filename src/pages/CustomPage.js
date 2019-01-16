@@ -27,7 +27,7 @@ const CustomPage = () => {
                 </Typography>
                 <Typography
                     variant="h6"
-                    align="justify">
+                    align="left">
                     FOXHALL DESIGN COMPANY creates high-quality custom products that reflect and promote an organization’s history, excellence, and values. 
                     Many “custom” products are look-alike products of poor quality. These inferior products create an unfavorable impression of an organization and lost opportunities. 
                     Fund-raising campaigns, high-quality donor appreciation gifts and corporate gifts are a Foxhall specialty. We welcome all inquiries.
