@@ -32,7 +32,7 @@ Following the sale of her stores in 1996, Anne taught business courses at commun
 This second retirement didn’t last long: Feeling “an itch” to get back to product design, Anne created FOXHALL DESIGN COMPANY in 2010. 
 Anne’s life-long love of the Chesapeake Bay inspired FOXHALL’s first product line: The Chesapeake Bay Collection.
 <br /><br />
-In May 2015, Anne created Great Gifts Across America to showcase her discoveries of outstanding gifts from across the country.
+In May 2015, Anne created <a href="https://www.youtube.com/channel/UCzmHgcmfy243ROWRo_qbxbg">Great Gifts Across America</a> to showcase her discoveries of outstanding gifts from across the country.
 <br /><br />
 <strong>Awards</strong>
 <ul>

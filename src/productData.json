@@ -457,16 +457,16 @@
             "100% cotton twill",
             "Unstructured low profile", 
             "Velcro back closure",
-            "Available in Navy or Espresso"   
+            "Available in Navy"   
             ]    
     }, {
         "title": "Bay Babe",
-        "image": "images/bay/BayBabeEspressoSQ.png",
+        "image": "images/bay/BayBabeNavySQ.png",
         "bullets": [
             "100% cotton twill",
             "Unstructured low profile", 
             "Velcro back closure",
-            "Available in Navy or Espresso"   
+            "Available in Navy"   
             ]    
     },  {
         "title": "Bay Kid",
@@ -479,13 +479,13 @@
             ]    
     }, {
         "title": "Bay Mom",
-        "image": "images/bay/BayMomEspressoSQ.png",
+        "image": "images/bay/BayMomSQ.png",
         "bullets": [
             "100% cotton twill",
             "Unstructured low profile", 
             "Velcro back closure",
             "Contrasting sandwich bill available in navy only",
-            "Available in Navy or Espresso"   
+            "Available in Navy"   
             ]    
     }, {
         "title": "Bay Dad",
@@ -495,7 +495,7 @@
             "Unstructured low profile", 
             "Velcro back closure",
             "Contrasting sandwich bill available in navy only",
-            "Available in Navy or Espresso"   
+            "Available in Navy"   
             ]    
     }
     ]
