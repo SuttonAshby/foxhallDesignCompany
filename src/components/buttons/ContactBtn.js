@@ -107,14 +107,14 @@ class ContactBtn extends React.Component {
               >
               <Grid container>
               <Grid item xs="6">
-                <Typography variant="h6" id="modal-title">
-                  Contact Us
+                <Typography variant="h5" id="modal-title">
+                  <strong>Contact Us</strong>
                 </Typography>
               </Grid>
               <Grid item xs="6" align="end"><Button onClick={this.handleClose}><strong>X</strong></Button></Grid>
               <Grid item xs="12">
                 <Typography
-                  variant="body1"
+                  variant="h6"
                   align="left">
                   For wholesale pricing and other inquiries, please email us.
                 </Typography>
