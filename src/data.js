@@ -63,15 +63,14 @@ const data = [
         id: "bay",
         image: "images/bay/BayDadWD.png",
         title: "Bay Family",
-        blurb: `The Chesapeake Bay attracts the young, the old, 
-                and every age in-between.  More than a few 
-                Chesapeake families have lived here for 300 or 
-                more years. Others have just arrived. Whether 
-                you're an old-timer or a newcomer, or a 
-                vacationer to Chesapeake  Country, you're 
-                Chesapeake family.  Six ages and stages are 
-                featured in this collection: Bay Mom; Bay Dad; 
-                Bay Kid; Bay Babe; and Bay Dude.`,
+        blurb: `One thing's for sure: The "Bay Family" is huge!  
+                The Chesapeake Bay is home to many in the 
+                mid-Atlantic, but there are other bays in the 
+                United States: 13,062 of them! That's a lot 
+                of bays-- and a lot of bay fans of all ages 
+                and stages. The Bay Family collection covers 
+                them all: Bay Mom; Bay Dad; Bay Kid; Bay Babe; 
+                and Bay Dude.`,
         about: "",
         link:  (props = {}) => <Link to="/bay" {...props} />  
     }];
