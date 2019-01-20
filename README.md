@@ -7,11 +7,8 @@ TODOS
 Priority - before launch
 activate formspree
 adjust contact button when looking at listitems.
-add padding to product pages
 finalize errors and warnings
-for more information contact us
 QA run
-adjust photo proportions for splash and carousel
 add 404
 
 changes that need confirmation
