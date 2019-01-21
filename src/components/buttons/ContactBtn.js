@@ -151,7 +151,7 @@ class ContactBtn extends React.Component {
                               id="email"
                               name="email"
                               label="Your Email"
-                              placeholder="Email"
+                              placeholder="Your Email"
                               defaultValue={this.state.email}
                               onChange={this.handleChange("email")}
                               fullWidth
@@ -159,13 +159,18 @@ class ContactBtn extends React.Component {
                               margin="normal"
                               />
                       </Grid>
-                      <Grid container item xs="12" justify="flex-end">
-                        <Button onClick={this.handleClose} variant="contained">
-                            Cancel
-                        </Button>
-                        <Button type="submit" variant="contained">
-                            Submit
-                        </Button>
+                      <Grid container item 
+                        xs="12" spacing={16} justify="flex-end" align="center">
+                        <Grid item>
+                          <Button onClick={this.handleClose} variant="contained">
+                              Cancel
+                          </Button>
+                        </Grid>
+                        <Grid item>
+                          <Button type="submit" variant="contained">
+                              Submit
+                          </Button>
+                        </Grid>
                       </Grid>
                   </Grid>
               </form>
