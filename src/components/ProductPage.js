@@ -39,7 +39,7 @@ const ProductPage = (props) => {
                         variant="h4"
                         align="center"
                         gutterBottom>
-                        {props.title}   
+                    <strong>{props.title}</strong>   
                     </Typography>
                     <Typography
                         variant="h6"

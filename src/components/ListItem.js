@@ -100,6 +100,11 @@ class ListItem extends React.Component {
             onClose={this.handleClose}>
             <Paper style={styles.modal}>
                 <img style={styles.display} src={this.props.image} />
+                <Typography
+                    variant="body1"
+                    align="right">
+                    {this.props.title}
+                </Typography>
             </Paper>
         </Modal>    
         </div>
