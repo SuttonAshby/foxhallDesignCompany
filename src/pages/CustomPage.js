@@ -17,8 +17,9 @@ const styles = {
 
 const CustomPage = () => {
     return (
-        <Grid container style={styles.page}>
-            <Grid item>
+        <Grid container  style={styles.page} 
+            alignContent="flex-start">
+            <Grid item >
                 <Typography
                     style={styles.title}
                     variant="h4"
@@ -35,6 +36,11 @@ const CustomPage = () => {
             </Grid>
             <Grid item>
                 <img src={CustomExample} width="300" />
+                <Typography
+                    variant="body1"
+                    align="right">
+                    American Chestnut Land Trust
+                </Typography>
             </Grid>
         </Grid>
     )

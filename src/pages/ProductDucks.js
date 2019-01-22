@@ -1,7 +1,8 @@
 import React from 'react';
 import dataCarousel from '../dataCarousel.json';
 import ProductPage from '../components/ProductPage';
-import data from '../productData.json';
+// import data from '../productData.json';
+import data from '../productDataTest.json';
 import splash from '../data.js'
 
 const ProductDucks = () => {
