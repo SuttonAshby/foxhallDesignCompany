@@ -56,7 +56,7 @@ class ListItem extends React.Component {
   
     render() {
 
-    const bulleted = this.props.bullets.map(element =>{
+    const bulleted = this.props.bullets.map(element => {
         return <li>{element}</li>
     })
 

@@ -40,7 +40,7 @@ import spacing from '@material-ui/core/styles/spacing';
     }
   };
 
-class ListItem extends React.Component {
+class ListItemTest extends React.Component {
 
     state = {
       open: false,
@@ -56,8 +56,12 @@ class ListItem extends React.Component {
   
     render() {
 
-    const bulleted = this.props.bullets.map(element =>{
+    const bulleted = this.props.bullets.map(element => {
         return <li>{element}</li>
+    })
+
+    const images = this.props.image.map(element => {
+        return <img style={styles.icon} src={element} />
     })
 
     return (
@@ -72,7 +76,7 @@ class ListItem extends React.Component {
                     style={styles.icon}
                     // justify="center"
                     onClick={this.handleOpen}>
-                    <img style={styles.icon} src={this.props.image} />
+                    {images}
                 </Grid>
                 <Grid item sm={6} 
                 //  md={9}
@@ -112,4 +116,4 @@ class ListItem extends React.Component {
 }};
 
   
-export default ListItem;
+export default ListItemTest;

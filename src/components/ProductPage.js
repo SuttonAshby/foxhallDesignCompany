@@ -3,6 +3,7 @@ import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import Carousel from './Carousel';
 import ListItem from './ListItem';
+import ListItemTest from './ListItemTest'
 
 //Used to generate product pages.
 
@@ -17,14 +18,16 @@ const styles = {
 const ProductPage = (props) => {
 
     const listItems = props.data.map((item) => {
-        return <ListItem 
+        console.log(item.image)
+        console.log(item.bullets)
+        return <ListItemTest 
             key={item.key}
             id={item.id}
             image={item.image}
             title={item.title}
             bullets={item.bullets}
             />
-
+        
     })
 
     return (

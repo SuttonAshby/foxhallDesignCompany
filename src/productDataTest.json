@@ -1,7 +1,13 @@
 {
     "ducks":[{
         "title": "Duck Presentation Bowl",
-        "image": "images/ducks/BowlDuckSQ.png",
+        "image": [
+            "images/ducks/BoxGoldenEyeSQ.png", 
+            "images/ducks/BoxBuffleheadSQ.png", 
+            "images/ducks/BoxMallardSQ.png", 
+            "images/ducks/BoxPintailSQ.png", 
+            "images/ducks/BoxWoodDuckSQ.png", 
+            "images/ducks/BoxCanvasbackSQ.png"],
         "bullets": [
             "The fine porcelain bowl was designed by FOXHALL DESIGN COMPANY and made especially for this series.",
             "Ht. 5 in. Diameter: 9 ½ in.",
@@ -12,7 +18,13 @@
             ]
         },{
         "title": "North American Duck Runner (Horizontal)",
-        "image": "images/ducks/DuckRunnerH.png",
+        "image": [
+            "images/ducks/BoxGoldenEyeSQ.png", 
+            "images/ducks/BoxBuffleheadSQ.png", 
+            "images/ducks/BoxMallardSQ.png", 
+            "images/ducks/BoxPintailSQ.png", 
+            "images/ducks/BoxWoodDuckSQ.png", 
+            "images/ducks/BoxCanvasbackSQ.png"],
         "bullets": [
             "Attractive pebble background with a double border.",
             "Outstanding wear performance.",
@@ -21,7 +33,13 @@
             ]
         },{
         "title": "North American Duck Runner (Vertical)",
-        "image": "images/ducks/DuckRunnerV.png",
+        "image": [
+            "images/ducks/BoxGoldenEyeSQ.png", 
+            "images/ducks/BoxBuffleheadSQ.png", 
+            "images/ducks/BoxMallardSQ.png", 
+            "images/ducks/BoxPintailSQ.png", 
+            "images/ducks/BoxWoodDuckSQ.png", 
+            "images/ducks/BoxCanvasbackSQ.png"],
         "bullets": [
             "Attractive pebble background with a double border.",
             "Outstanding wear performance.",
@@ -30,7 +48,13 @@
             ]
         },{
             "title": "Duck Wooden Box (Goldeneye)",
-            "image": ["images/ducks/BoxGoldenEyeSQ.png", "images/ducks/BoxBuffleheadSQ.png", "images/ducks/BoxMallardSQ.png", "images/ducks/BoxPintailSQ.png", "images/ducks/BoxWoodDuckSQ.png", "images/ducks/BoxCanvasbackSQ.png"],
+            "image": [
+                "images/ducks/BoxGoldenEyeSQ.png", 
+                "images/ducks/BoxBuffleheadSQ.png", 
+                "images/ducks/BoxMallardSQ.png", 
+                "images/ducks/BoxPintailSQ.png", 
+                "images/ducks/BoxWoodDuckSQ.png", 
+                "images/ducks/BoxCanvasbackSQ.png"],
             "bullets": [
                 "Handsome wood box with tile on top.",
                 "Tan felt lining protects objects in box.", 
@@ -40,7 +64,13 @@
                 ]
         },{
             "title": "Duck Wooden Box (Bufflehead)",
-            "image": "images/ducks/BoxBuffleheadSQ.png",
+            "image": [
+                "images/ducks/BoxGoldenEyeSQ.png", 
+                "images/ducks/BoxBuffleheadSQ.png", 
+                "images/ducks/BoxMallardSQ.png", 
+                "images/ducks/BoxPintailSQ.png", 
+                "images/ducks/BoxWoodDuckSQ.png", 
+                "images/ducks/BoxCanvasbackSQ.png"],
             "bullets": [
                 "Handsome wood box with tile on top.",
                 "Tan felt lining protects objects in box.", 
@@ -50,7 +80,13 @@
                 ]
         }, {
             "title": "Duck Wooden Box (Mallard)",
-            "image": "images/ducks/BoxMallardSQ.png",
+            "image": [
+                "images/ducks/BoxGoldenEyeSQ.png", 
+                "images/ducks/BoxBuffleheadSQ.png", 
+                "images/ducks/BoxMallardSQ.png", 
+                "images/ducks/BoxPintailSQ.png", 
+                "images/ducks/BoxWoodDuckSQ.png", 
+                "images/ducks/BoxCanvasbackSQ.png"],
             "bullets": [
                 "Handsome wood box with tile on top.",
                 "Tan felt lining protects objects in box.", 
@@ -60,7 +96,13 @@
                 ]
         },{
             "title": "Duck Wooden Box (Common Pintail)",
-            "image": "images/ducks/BoxPintailSQ.png",
+            "image": [
+                "images/ducks/BoxGoldenEyeSQ.png", 
+                "images/ducks/BoxBuffleheadSQ.png", 
+                "images/ducks/BoxMallardSQ.png", 
+                "images/ducks/BoxPintailSQ.png", 
+                "images/ducks/BoxWoodDuckSQ.png", 
+                "images/ducks/BoxCanvasbackSQ.png"],
             "bullets": [
                 "Handsome wood box with tile on top.",
                 "Tan felt lining protects objects in box.", 
@@ -70,7 +112,13 @@
                 ]
         },{
             "title": "Duck Wooden Box (Wood Duck)",
-            "image": "images/ducks/BoxWoodDuckSQ.png",
+            "image": [
+                "images/ducks/BoxGoldenEyeSQ.png", 
+                "images/ducks/BoxBuffleheadSQ.png", 
+                "images/ducks/BoxMallardSQ.png", 
+                "images/ducks/BoxPintailSQ.png", 
+                "images/ducks/BoxWoodDuckSQ.png", 
+                "images/ducks/BoxCanvasbackSQ.png"],
             "bullets": [
                 "Handsome wood box with tile on top.",
                 "Tan felt lining protects objects in box.", 
@@ -80,7 +128,13 @@
                 ]
         },{
             "title": "Duck Wooden Box (Canvasback)",
-            "image": "images/ducks/BoxCanvasbackSQ.png",
+            "image": [
+                "images/ducks/BoxGoldenEyeSQ.png", 
+                "images/ducks/BoxBuffleheadSQ.png", 
+                "images/ducks/BoxMallardSQ.png", 
+                "images/ducks/BoxPintailSQ.png", 
+                "images/ducks/BoxWoodDuckSQ.png", 
+                "images/ducks/BoxCanvasbackSQ.png"],
             "bullets": [
                 "Handsome wood box with tile on top.",
                 "Tan felt lining protects objects in box.", 
@@ -90,7 +144,13 @@
                 ]
         },{
             "title": "Duck Stein (Goldeneye)",
-            "image": "images/ducks/SteinGoldeneyeSQ.png",
+            "image": [
+                "images/ducks/BoxGoldenEyeSQ.png", 
+                "images/ducks/BoxBuffleheadSQ.png", 
+                "images/ducks/BoxMallardSQ.png", 
+                "images/ducks/BoxPintailSQ.png", 
+                "images/ducks/BoxWoodDuckSQ.png", 
+                "images/ducks/BoxCanvasbackSQ.png"],
             "bullets": [
                 "Traditional Beer Stein. 32 oz.",
                 "Top-quality ceramic ware.", 
@@ -99,7 +159,7 @@
                 ]
         },{
             "title": "Duck Stein (Bufflehead)",
-            "image": "images/ducks/SteinBuffleheadSQ.png",
+            "image": ["images/ducks/SteinBuffleheadSQ.png"],
             "bullets": [
                 "Traditional Beer Stein. 32 oz.",
                 "Top-quality ceramic ware.", 
@@ -108,7 +168,7 @@
                 ]
         },{
             "title": "Duck Stein (Mallard)",
-            "image": "images/ducks/SteinMallardSQ.png",
+            "image": ["images/ducks/SteinMallardSQ.png"],
             "bullets": [
                 "Traditional Beer Stein. 32 oz.",
                 "Top-quality ceramic ware.", 
@@ -117,7 +177,7 @@
                 ]
         },{
             "title": "Duck Stein (Common Pintail)",
-            "image": "images/ducks/SteinPintailSQ.png",
+            "image": ["images/ducks/SteinPintailSQ.png"],
             "bullets": [
                 "Traditional Beer Stein. 32 oz.",
                 "Top-quality ceramic ware.", 
@@ -126,7 +186,7 @@
                 ]
         },{
             "title": "Duck Stein (Wood Duck)",
-            "image": "images/ducks/SteinWoodSQ.png",
+            "image": ["images/ducks/SteinWoodSQ.png"],
             "bullets": [
                 "Traditional Beer Stein. 32 oz.",
                 "Top-quality ceramic ware.", 
@@ -135,7 +195,7 @@
                 ]
         },{
             "title": "Duck Stein (Canvasback)",
-            "image": "images/ducks/SteinCanvasbackSQ.png",
+            "image": ["images/ducks/SteinCanvasbackSQ.png"],
             "bullets": [
                 "Traditional Beer Stein. 32 oz.",
                 "Top-quality ceramic ware.", 
@@ -144,7 +204,7 @@
                 ]
         },{
             "title": "Duck Trivet (Goldeneye)",
-            "image": "images/ducks/TrivetGoldenEyeSQ.png",
+            "image": ["images/ducks/TrivetGoldenEyeSQ.png"],
             "bullets": [
                 "Handsome wood trivet that can be used as a trivet, wall hanging, or a collectible on a stand (as shown).",
                 "Trivet back: Smooth wood with four small cushioned pads to protect wall/other surfaces; brass hook for wall hanging.", 
@@ -153,7 +213,7 @@
                 ]
         },{
             "title": "Duck Trivet (Bufflehead)",
-            "image": "images/ducks/TrivetBuffleheadSQ.png",
+            "image": ["images/ducks/TrivetBuffleheadSQ.png"],
             "bullets": [
                 "Handsome wood trivet that can be used as a trivet, wall hanging, or a collectible on a stand (as shown).",
                 "Trivet back: Smooth wood with four small cushioned pads to protect wall/other surfaces; brass hook for wall hanging.", 
@@ -162,7 +222,7 @@
                 ]
         },{
             "title": "Duck Trivet (Mallard)",
-            "image": "images/ducks/TrivetMallardSQ.png",
+            "image": ["images/ducks/TrivetMallardSQ.png"],
             "bullets": [
                 "Handsome wood trivet that can be used as a trivet, wall hanging, or a collectible on a stand (as shown).",
                 "Trivet back: Smooth wood with four small cushioned pads to protect wall/other surfaces; brass hook for wall hanging.", 
@@ -171,7 +231,7 @@
                 ]
         },{
             "title": "Duck Trivet (Common Pintail)",
-            "image": "images/ducks/TrivetPintailSQ.png",
+            "image": ["images/ducks/TrivetPintailSQ.png"],
             "bullets": [
                 "Handsome wood trivet that can be used as a trivet, wall hanging, or a collectible on a stand (as shown).",
                 "Trivet back: Smooth wood with four small cushioned pads to protect wall/other surfaces; brass hook for wall hanging.", 
@@ -180,7 +240,7 @@
                 ]
         },{
             "title": "Duck Trivet (Wood Duck)",
-            "image": "images/ducks/TrivetWoodDuckSQ.png",
+            "image": ["images/ducks/TrivetWoodDuckSQ.png"],
             "bullets": [
                 "Handsome wood trivet that can be used as a trivet, wall hanging, or a collectible on a stand (as shown).",
                 "Trivet back: Smooth wood with four small cushioned pads to protect wall/other surfaces; brass hook for wall hanging.", 
@@ -189,7 +249,7 @@
                 ]
         },{
             "title": "Duck Trivet (Canvasback)",
-            "image": "images/ducks/TrivetCanvasbackSQ.png",
+            "image": ["images/ducks/TrivetCanvasbackSQ.png"],
             "bullets": [
                 "Handsome wood trivet that can be used as a trivet, wall hanging, or a collectible on a stand (as shown).",
                 "Trivet back: Smooth wood with four small cushioned pads to protect wall/other surfaces; brass hook for wall hanging.", 
@@ -198,7 +258,7 @@
                 ]
         },{
             "title": "Exquisite 12-Piece Place Setting",
-            "image": "images/ducks/12PlatesDucks.png",
+            "image": ["images/ducks/12PlatesDucks.png"],
             "bullets": [
                 "Heirloom-quality china with double gold band.",
                 "Desirable rim shape plates.", 
