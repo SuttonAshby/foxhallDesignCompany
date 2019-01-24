@@ -61,7 +61,24 @@ class ListItemTest extends React.Component {
     })
 
     const images = this.props.image.map(element => {
-        return <img style={styles.icon} src={element} />
+        return  (<div>
+            <img style={styles.icon} src={element} />
+            <Modal
+            // aria-labelledby="simple-modal-title"
+            // aria-describedby="simple-modal-description"
+            open={this.state.open}
+            onClose={this.handleClose}>
+            <Paper style={styles.modal}>
+                <img style={styles.display} src={element} />
+                <Typography
+                    variant="body1"
+                    align="right">
+                    {this.props.title}
+                </Typography>
+            </Paper>
+        </Modal>    
+            </div>
+            )
     })
 
     return (
@@ -71,14 +88,16 @@ class ListItemTest extends React.Component {
                 // style={styles.page}
              justify="center"
              >
-                <Grid item sm={6} 
+                {/* <Grid item sm={6} 
                 // md={3}
+
                     style={styles.icon}
                     // justify="center"
                     onClick={this.handleOpen}>
                     {images}
-                </Grid>
-                <Grid item sm={6} 
+                </Grid> */}
+                {images}
+                <Grid item sm={12} 
                 //  md={9}
                  >
                     <Typography

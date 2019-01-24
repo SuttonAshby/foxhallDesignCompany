@@ -1,13 +1,7 @@
 {
     "ducks":[{
         "title": "Duck Presentation Bowl",
-        "image": [
-            "images/ducks/BoxGoldenEyeSQ.png", 
-            "images/ducks/BoxBuffleheadSQ.png", 
-            "images/ducks/BoxMallardSQ.png", 
-            "images/ducks/BoxPintailSQ.png", 
-            "images/ducks/BoxWoodDuckSQ.png", 
-            "images/ducks/BoxCanvasbackSQ.png"],
+        "image": ["images/ducks/BowlDuckSQ.png"],
         "bullets": [
             "The fine porcelain bowl was designed by FOXHALL DESIGN COMPANY and made especially for this series.",
             "Ht. 5 in. Diameter: 9 ½ in.",
@@ -18,13 +12,7 @@
             ]
         },{
         "title": "North American Duck Runner (Horizontal)",
-        "image": [
-            "images/ducks/BoxGoldenEyeSQ.png", 
-            "images/ducks/BoxBuffleheadSQ.png", 
-            "images/ducks/BoxMallardSQ.png", 
-            "images/ducks/BoxPintailSQ.png", 
-            "images/ducks/BoxWoodDuckSQ.png", 
-            "images/ducks/BoxCanvasbackSQ.png"],
+        "image": ["images/ducks/DuckRunnerH.png"],
         "bullets": [
             "Attractive pebble background with a double border.",
             "Outstanding wear performance.",
@@ -33,13 +21,7 @@
             ]
         },{
         "title": "North American Duck Runner (Vertical)",
-        "image": [
-            "images/ducks/BoxGoldenEyeSQ.png", 
-            "images/ducks/BoxBuffleheadSQ.png", 
-            "images/ducks/BoxMallardSQ.png", 
-            "images/ducks/BoxPintailSQ.png", 
-            "images/ducks/BoxWoodDuckSQ.png", 
-            "images/ducks/BoxCanvasbackSQ.png"],
+        "image": ["images/ducks/DuckRunnerV.png"],
         "bullets": [
             "Attractive pebble background with a double border.",
             "Outstanding wear performance.",
@@ -64,13 +46,7 @@
                 ]
         },{
             "title": "Duck Wooden Box (Bufflehead)",
-            "image": [
-                "images/ducks/BoxGoldenEyeSQ.png", 
-                "images/ducks/BoxBuffleheadSQ.png", 
-                "images/ducks/BoxMallardSQ.png", 
-                "images/ducks/BoxPintailSQ.png", 
-                "images/ducks/BoxWoodDuckSQ.png", 
-                "images/ducks/BoxCanvasbackSQ.png"],
+            "image": ["images/ducks/BoxBuffleheadSQ.png"],
             "bullets": [
                 "Handsome wood box with tile on top.",
                 "Tan felt lining protects objects in box.", 
@@ -80,13 +56,7 @@
                 ]
         }, {
             "title": "Duck Wooden Box (Mallard)",
-            "image": [
-                "images/ducks/BoxGoldenEyeSQ.png", 
-                "images/ducks/BoxBuffleheadSQ.png", 
-                "images/ducks/BoxMallardSQ.png", 
-                "images/ducks/BoxPintailSQ.png", 
-                "images/ducks/BoxWoodDuckSQ.png", 
-                "images/ducks/BoxCanvasbackSQ.png"],
+            "image": ["images/ducks/BoxMallardSQ.png"],
             "bullets": [
                 "Handsome wood box with tile on top.",
                 "Tan felt lining protects objects in box.", 
@@ -96,13 +66,7 @@
                 ]
         },{
             "title": "Duck Wooden Box (Common Pintail)",
-            "image": [
-                "images/ducks/BoxGoldenEyeSQ.png", 
-                "images/ducks/BoxBuffleheadSQ.png", 
-                "images/ducks/BoxMallardSQ.png", 
-                "images/ducks/BoxPintailSQ.png", 
-                "images/ducks/BoxWoodDuckSQ.png", 
-                "images/ducks/BoxCanvasbackSQ.png"],
+            "image": ["images/ducks/BoxPintailSQ.png"],
             "bullets": [
                 "Handsome wood box with tile on top.",
                 "Tan felt lining protects objects in box.", 
@@ -112,13 +76,7 @@
                 ]
         },{
             "title": "Duck Wooden Box (Wood Duck)",
-            "image": [
-                "images/ducks/BoxGoldenEyeSQ.png", 
-                "images/ducks/BoxBuffleheadSQ.png", 
-                "images/ducks/BoxMallardSQ.png", 
-                "images/ducks/BoxPintailSQ.png", 
-                "images/ducks/BoxWoodDuckSQ.png", 
-                "images/ducks/BoxCanvasbackSQ.png"],
+            "image": ["images/ducks/BoxWoodDuckSQ.png"],
             "bullets": [
                 "Handsome wood box with tile on top.",
                 "Tan felt lining protects objects in box.", 
@@ -128,13 +86,7 @@
                 ]
         },{
             "title": "Duck Wooden Box (Canvasback)",
-            "image": [
-                "images/ducks/BoxGoldenEyeSQ.png", 
-                "images/ducks/BoxBuffleheadSQ.png", 
-                "images/ducks/BoxMallardSQ.png", 
-                "images/ducks/BoxPintailSQ.png", 
-                "images/ducks/BoxWoodDuckSQ.png", 
-                "images/ducks/BoxCanvasbackSQ.png"],
+            "image": ["images/ducks/BoxCanvasbackSQ.png"],
             "bullets": [
                 "Handsome wood box with tile on top.",
                 "Tan felt lining protects objects in box.", 
@@ -144,13 +96,7 @@
                 ]
         },{
             "title": "Duck Stein (Goldeneye)",
-            "image": [
-                "images/ducks/BoxGoldenEyeSQ.png", 
-                "images/ducks/BoxBuffleheadSQ.png", 
-                "images/ducks/BoxMallardSQ.png", 
-                "images/ducks/BoxPintailSQ.png", 
-                "images/ducks/BoxWoodDuckSQ.png", 
-                "images/ducks/BoxCanvasbackSQ.png"],
+            "image": ["images/ducks/SteinGoldeneyeSQ.png"],
             "bullets": [
                 "Traditional Beer Stein. 32 oz.",
                 "Top-quality ceramic ware.", 
