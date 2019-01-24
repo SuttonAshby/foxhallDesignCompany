@@ -61,23 +61,24 @@ class ListItemTest extends React.Component {
     })
 
     const images = this.props.image.map(element => {
-        return  (<div>
+        return  (
+        <Grid item onClick={this.handleOpen}>
             <img style={styles.icon} src={element} />
             <Modal
             // aria-labelledby="simple-modal-title"
             // aria-describedby="simple-modal-description"
             open={this.state.open}
             onClose={this.handleClose}>
-            <Paper style={styles.modal}>
-                <img style={styles.display} src={element} />
-                <Typography
-                    variant="body1"
-                    align="right">
-                    {this.props.title}
-                </Typography>
-            </Paper>
-        </Modal>    
-            </div>
+                <Paper style={styles.modal}>
+                    <img style={styles.display} src={element} />
+                    <Typography
+                        variant="body1"
+                        align="right">
+                        {this.props.title}
+                    </Typography>
+                </Paper>
+            </Modal>    
+        </Grid>
             )
     })
 
@@ -116,7 +117,7 @@ class ListItemTest extends React.Component {
                 </Grid>
             </Grid>
             </Paper>
-        <Modal
+        {/* <Modal
             // aria-labelledby="simple-modal-title"
             // aria-describedby="simple-modal-description"
             open={this.state.open}
@@ -129,7 +130,7 @@ class ListItemTest extends React.Component {
                     {this.props.title}
                 </Typography>
             </Paper>
-        </Modal>    
+        </Modal>     */}
         </div>
     )
 }};
