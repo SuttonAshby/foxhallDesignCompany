@@ -10,6 +10,7 @@ adjust contact button when looking at listitems.
 finalize errors and warnings
 QA run
 add 404
+add phone number
 
 changes that need confirmation
 picture choices
