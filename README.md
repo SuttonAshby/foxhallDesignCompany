@@ -4,18 +4,10 @@ Wholesale site built with React and Material UI
 
 TODOS
 
-Priority - before launch
-activate formspree
-adjust contact button when looking at listitems.
+Priority - quick edits
 finalize errors and warnings
 QA run
 add 404
-add phone number
-
-changes that need confirmation
-picture choices
-button order
-navbar picture
 
 Priority - future features
 improve logo coverage
@@ -33,10 +25,7 @@ availablity bool
 improve comments
 mobile listitems not aligning perfectly
 spacing for contact buttons
-
-trivets and place settings on special order
-rest are available
-
+adjust contact button when looking at listitems.
 
 change made in the U.S. to USA
 Wood Bowl stand sold separately. (Please see below)
@@ -52,6 +41,3 @@ North American Duck Runner
     Made of premium grade nylon withg stain-resistant Teflon.
     Made in the U.S. by Milliken Rug Company.
     Popular runner size: 2 ft. x 8 ft.
-
-
-sold in sets or individually
