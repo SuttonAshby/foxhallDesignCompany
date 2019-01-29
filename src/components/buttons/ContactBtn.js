@@ -116,7 +116,7 @@ class ContactBtn extends React.Component {
                 <Typography
                   variant="h6"
                   align="left">
-                  For wholesale pricing and other inquiries, please email us.
+                  For wholesale pricing and other inquiries, <br />please call (410-253-8462) or email us. 
                 </Typography>
               </Grid>
 

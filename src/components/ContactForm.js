@@ -3,6 +3,7 @@ import TextField from '@material-ui/core/TextField';
 import { Grid } from '@material-ui/core';
 import Button from '@material-ui/core/Button';
 
+//Currently DEFUNCT and built into the contact button
 
 class ContactForm extends React.Component {
     state = {
