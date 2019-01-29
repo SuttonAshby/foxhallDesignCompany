@@ -14,14 +14,14 @@ import Footer from './components/Footer.js';
   <Router>
     <div>
     <Navbar />
-      <Route exact path="/" component={HomePage} />
+      <Route exact exact path="/" component={HomePage} />
       <Route exact path="/about" component={AboutPage} />
       <Route exact path="/custom" component={CustomPage} />
       <Route exact path="/ducks" component={ProductDucks} />
       <Route exact path="/boats" component={ProductBoats} />
       <Route exact path="/chesapeake" component={ProductChesapeake} />
       <Route exact path="/bay" component={ProductBay} />
-      <Footer />
+    <Footer />
     </div>
   </Router>
 )

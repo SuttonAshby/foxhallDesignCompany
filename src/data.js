@@ -9,7 +9,7 @@ const data = [
         key: 0,
         id: "ducks",
         image: "images/ducks/BowlDuckWD.png",
-        title: "Ducks of America",
+        title: "Ducks of America Collection",
         blurb: `Foxhall Design Company is honored to be the 
                 product designer and sole distributor of Ducks 
                 of America by noted waterfowl artist John 
@@ -30,7 +30,7 @@ const data = [
         key: 1,
         id: "boats",
         image: "images/boats/BoxBugeyeWD.png",
-        title: "Chesapeake Bay Wooden Boats",
+        title: "Chesapeake Bay Wooden Boats Collection",
         blurb: `The Chesapeake Bay was once dotted with the 
                 white sails of boats built by "watermen" who 
                 made their living working on the Bay. This 
@@ -48,7 +48,7 @@ const data = [
         key: 2,
         id: "chesapeake",
         image: "images/chesapeake/CCmatWD.png",
-        title: "Chesapeake Country",
+        title: "Chesapeake Country Collection",
         blurb: `"Chesapeake Country" is a popular slogan that 
                 captures the strong pride of people who live 
                 on the shores of the Chesapeake Bay. The rich 
@@ -62,7 +62,7 @@ const data = [
         key: 3,
         id: "bay",
         image: "images/bay/BayDadWD.png",
-        title: "Bay Family",
+        title: "Bay Family Collection",
         blurb: `One thing's for sure: The "Bay Family" is huge!  
                 The Chesapeake Bay is home to many in the 
                 mid-Atlantic, but there are other bays in the 

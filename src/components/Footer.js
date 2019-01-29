@@ -56,8 +56,7 @@ class Footer extends Component {
                     &#169; Foxhall Design Company 2018 Website by Sutton Ashby | Photography by George Bohaska
             </Typography></div>
         )
-    }
-    
+    }    
 }
 
 /*
