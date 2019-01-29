@@ -128,7 +128,7 @@ class ContactBtn extends React.Component {
                   noValidate 
                   autoComplete="off"
                   method="POST"
-                  // action="https://formspree.io/foxhalldesigncompany@gmail.com"
+                  action="https://formspree.io/foxhalldesigncompany@gmail.com"
                   >
                   <Grid container>
                       <Grid item xs={12}>
