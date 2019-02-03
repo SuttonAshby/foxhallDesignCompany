@@ -1,6 +1,8 @@
 import React from 'react';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
+import { Link } from 'react-router-dom';
+
 
 /* for use on home page to display each product line
 accepts props for image, title, and blurb */ 
@@ -45,7 +47,14 @@ const ProductSplash = (props) => {
                 <Typography
                     variant="h6"
                     align="center">{props.blurb}
-                </Typography>    
+                </Typography>
+                <Typography
+                    variant="h5"
+                    align="center"
+                    gutterBottom 
+                    component={props.link}>
+                    See More >
+                </Typography>       
             </Grid>
         </Grid>           
     )

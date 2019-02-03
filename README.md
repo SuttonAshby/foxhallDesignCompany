@@ -8,7 +8,6 @@ Priority - quick edits
 finalize errors and warnings
 QA run
 add 404
-update so it doens't say react app in tab
 
 Priority - future features
 improve logo coverage
